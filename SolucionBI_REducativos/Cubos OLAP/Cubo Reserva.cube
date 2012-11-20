@@ -1,0 +1,937 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5a13b95e-e8f3-4898-ba2b-2d2f988ddbc2" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo Reserva</ID>
+  <Name>Cubo Reserva</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="36" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2342" scrolltop="7389" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16404" y="9604" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_TipoUsoReserva" left="2689" top="17972" logicalid="18" controlid="1" masterid="0" hint1="0" hint2="0" width="4101" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="0008000005100000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_TipoUsoReserva" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_EstadoReserva" left="20" top="8167" logicalid="19" controlid="2" masterid="0" hint1="0" hint2="0" width="3387" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003b0d00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_EstadoReserva" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Hora" left="12361" top="3912" logicalid="20" controlid="3" masterid="0" hint1="0" hint2="0" width="3360" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000200d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Hora" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Usuario" left="6151" top="0" logicalid="21" controlid="4" masterid="0" hint1="0" hint2="0" width="3466" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008a0d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Usuario" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Espacio" left="12361" top="11154" logicalid="22" controlid="5" masterid="0" hint1="0" hint2="0" width="3360" height="4419" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000200d000043110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Espacio" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Fact_Reserva" left="5807" top="7242" logicalid="23" controlid="6" masterid="0" hint1="0" hint2="0" width="4154" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003a10000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Reserva" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Dependencia" left="9190" top="17972" logicalid="24" controlid="7" masterid="0" hint1="0" hint2="0" width="3889" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000310f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Dependencia" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4340" top="11942" logicalid="25" controlid="8" masterid="0" hint1="0" hint2="0" width="2744" height="6530" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_TipoUsoReserva]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4739" y="17972" />
+              <point x="4739" y="15107" />
+              <point x="6784" y="15107" />
+              <point x="6784" y="12242" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3107" top="9342" logicalid="26" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_EstadoReserva]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3407" y="9741" />
+              <point x="4607" y="9741" />
+              <point x="4607" y="9742" />
+              <point x="5807" y="9742" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9661" top="6484" logicalid="27" controlid="10" masterid="0" hint1="0" hint2="0" width="3000" height="3558" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_HoraIni]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="20" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12361" y="6883" />
+              <point x="11161" y="6883" />
+              <point x="11161" y="9742" />
+              <point x="9961" y="9742" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9661" top="4834" logicalid="28" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="3558" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_HoraFin]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="14" destattachpoint="17" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12361" y="5233" />
+              <point x="11161" y="5233" />
+              <point x="11161" y="8092" />
+              <point x="9961" y="8092" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7485" top="4343" logicalid="29" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_Usuario]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7884" y="4842" />
+              <point x="7884" y="7242" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9661" top="11092" logicalid="30" controlid="13" masterid="0" hint1="0" hint2="0" width="3000" height="2671" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_Espacio]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="16" destattachpoint="29" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12361" y="13363" />
+              <point x="11161" y="13363" />
+              <point x="11161" y="11392" />
+              <point x="9961" y="11392" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8134" top="11942" logicalid="31" controlid="14" masterid="0" hint1="0" hint2="0" width="3400" height="6530" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_Dependencia]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="6" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="11134" y="17972" />
+              <point x="11134" y="15107" />
+              <point x="8434" y="15107" />
+              <point x="8434" y="12242" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Fecha" left="356" top="11618" logicalid="32" controlid="15" masterid="0" hint1="0" hint2="0" width="5397" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800001515000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Fecha" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5107" top="11642" logicalid="33" controlid="16" masterid="0" hint1="0" hint2="0" width="1346" height="1226" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_FechaRes]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="15" destid="6" sourceattachpoint="21" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5753" y="12468" />
+              <point x="6153" y="12468" />
+              <point x="6153" y="12205" />
+              <point x="5407" y="12205" />
+              <point x="5407" y="11942" />
+              <point x="5807" y="11942" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5107" top="11092" logicalid="34" controlid="17" masterid="0" hint1="0" hint2="0" width="1346" height="1226" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_Fact_Reserva_Dim_FechaSol]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="15" destid="6" sourceattachpoint="19" destattachpoint="28" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5753" y="11918" />
+              <point x="6153" y="11918" />
+              <point x="6153" y="11655" />
+              <point x="5407" y="11655" />
+              <point x="5407" y="11392" />
+              <point x="5807" y="11392" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2342</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>7389</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="99dda113-7f99-4d6b-9f88-2a2daf453d38">
+      <ID>Id Hora Inicial</ID>
+      <Name>Id Hora Inicial</Name>
+      <DimensionID>Dim Hora</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8fe20067-2ddc-4901-8979-c8dd9499a2ea">
+          <AttributeID>Id Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e256005b-e3e1-4ada-b805-25d3e0d9cb46">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc3a05bd-b1e2-4bcd-86f3-e8c15fc30039">
+          <AttributeID>Parte Del Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24e60e7c-29bc-4900-ad57-6c0c8fa3f4ba">
+          <AttributeID>Am Pm</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="2c540a1b-8d47-4c82-8e9d-ce879e8c1eea">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="40d5aef0-7514-4691-a4ef-51977e39f9d4">
+      <ID>Id Hora Final</ID>
+      <Name>Id Hora Final</Name>
+      <DimensionID>Dim Hora</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="540563d5-1d87-4710-8255-e6c339e8fc84">
+          <AttributeID>Id Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6921853c-c53b-4264-a4b5-2c5d13c07826">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="242c924e-1123-449d-bab5-2e54aee30a19">
+          <AttributeID>Parte Del Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6400f1e1-773b-4a92-b208-d342404000e1">
+          <AttributeID>Am Pm</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="e6e43153-0d0b-41b7-9602-0b5f0fc5d8b1">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="e2a9c65e-ca02-47ea-913a-39034fd6097f">
+      <ID>Dim Estado Reserva</ID>
+      <Name>Dim Estado Reserva</Name>
+      <DimensionID>Dim Estado Reserva</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="336cde28-1c42-4107-9de6-942528b61a61">
+          <AttributeID>Id Estado Reserva</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bdba03ab-5705-493d-b7ee-e45cb785ded3">
+          <AttributeID>Estado Reserva</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9ab3cf8a-bdc7-4769-84a5-31be548ea218">
+      <ID>Dim Dependencia</ID>
+      <Name>Dim Dependencia</Name>
+      <DimensionID>Dim Dependencia</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="02ca8a7b-0278-4ac9-9634-1756bcf2b84b">
+          <AttributeID>Id Dependencia SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf834fa0-68ae-414a-919a-f9064be98cea">
+          <AttributeID>Nombre Dependencia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e3258776-9efa-4e8f-bc3a-8e33a96f6fd6">
+      <ID>Dim Tipo Uso Reserva</ID>
+      <Name>Dim Tipo Uso Reserva</Name>
+      <DimensionID>Dim Tipo Uso Reserva</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="59d98ecf-620f-40c1-bec9-2b3fd2516df5">
+          <AttributeID>Id Tipo Uso Reserva SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0937187b-dd10-4004-adb7-7e4dcb4820be">
+          <AttributeID>Uso Reserva</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a78d023a-8ea0-4e2a-a16b-9dea31cfe38e">
+      <ID>Dim Usuario</ID>
+      <Name>Dim Usuario</Name>
+      <DimensionID>Dim Usuario</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="72727c7b-02e3-446e-b7e5-d0c0fd3100e0">
+          <AttributeID>User Id SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c57a5230-855d-437c-9461-e46bb0aa20fd">
+          <AttributeID>User Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="20c71d72-d63f-4e00-b129-eccb6929d1dc">
+          <AttributeID>Cedula</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="58235cc8-64c6-4ae5-a743-5692c60aeb9f">
+          <AttributeID>Tipo Vinculacion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5ea046a8-aaa3-4bc1-9dc6-9cf650ed75f5">
+      <ID>Dim Fecha</ID>
+      <Name>Dim Fecha</Name>
+      <DimensionID>Dim Fecha</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="95b82e1b-246a-4dc6-a85c-d7803a9000cd">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="890b5010-cb86-4411-b162-b259f1bcac05">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4b011537-e1a2-4736-921d-de902cccb7ac">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e3598dd-e5ab-4d6e-854a-71de6aef369e">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b1d26983-af4a-4b63-936b-396bb8dea3af">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b44ce6f-9dc1-4af4-a2a3-d6e0d93ea974">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="643d1920-4721-4e37-a71f-33d9cad752d0">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="48eb2ff6-18fd-4d01-b857-350e61619699">
+      <ID>Dim Espacio</ID>
+      <Name>Dim Espacio</Name>
+      <DimensionID>Dim Espacio</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5fa2ed3f-b173-4e10-8340-31158238066d">
+          <AttributeID>Id Espacio SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89227ee1-6239-407f-9af6-20347bd93886">
+          <AttributeID>Espacio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb471491-4050-4a6b-aca9-5db31115bd90">
+          <AttributeID>Bloque</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac6521e3-3b9b-4650-aec1-b55f5f1c50d2">
+          <AttributeID>Sede</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5bd10d44-db05-47af-a612-1b3ab5b8a0fe">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <Perspectives>
+    <Perspective dwd:design-time-name="85586d74-8819-4515-90ad-343506ef1d15">
+      <ID>Perspectiva 4</ID>
+      <Name>Reservas_por_Dependencia</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="d9a7eec5-4a28-4f77-999f-236df54ee45f">
+          <CubeDimensionID>Dim Dependencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="faccc31c-d36a-4b13-ae11-da57971b7b56">
+              <AttributeID>Nombre Dependencia</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="3e974a44-65ef-4402-9034-eb8fbe83f3d0">
+          <CubeDimensionID>Dim Usuario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e35796ae-0e92-405e-8c92-395d0fa77626">
+              <AttributeID>User Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="303f6a6b-3dbe-4c39-bf98-f48448767ac5">
+              <AttributeID>Cedula</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="fa013891-836f-48db-a950-ef2e943e90bb">
+              <AttributeID>Tipo Vinculacion</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="26391eb5-b31b-41cb-aad3-b414662c9b16">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="26730d11-297f-4193-903f-2606e2daf285">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="e805855d-822e-4152-8c5e-350473052f6a">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="5983e97d-fd6f-401f-8e0c-572bd8e28b8d">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="478958b6-a673-45fe-8665-862ea347f5f3">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="799e9c75-104e-4105-a855-bbdbc412e547">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="3e024a6e-6519-45a3-a81f-cf3d2f10034a">
+          <MeasureGroupID>Fact Reserva</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="7e1f011b-3ed2-44d4-9681-a39218514020">
+              <MeasureID>Cantidad Reservas</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="15be8385-7778-40f6-a44b-095dd7e75633">
+      <ID>Perspectiva 5</ID>
+      <Name>DuracionReservas_por_Dependencia</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="dc12316b-773c-4ad1-9f8c-ff47e6d0c574">
+          <CubeDimensionID>Dim Dependencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="07b99615-d8c7-41fc-a717-0492dc2a54c3">
+              <AttributeID>Nombre Dependencia</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="eb6d6b65-da4f-4698-b84b-ffaa8e9fa61a">
+          <CubeDimensionID>Dim Usuario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="af776220-1f52-4931-88c2-c3a754e64ef6">
+              <AttributeID>User Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="8900df8a-692a-43df-9eae-1e0a4844d2c5">
+              <AttributeID>Cedula</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="a5f4c5c9-e335-4665-8332-2038f88c7113">
+              <AttributeID>Tipo Vinculacion</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="21b09e0b-7d66-4e50-9b8e-3ed54c942ca4">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="06f9e9df-3457-456c-829a-68f933fe67f8">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="b1eaaa88-9435-4b00-8688-6e7577b340df">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="f3842ad8-fb66-4c84-af86-5404e427998b">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="81d4eed6-74c6-47d4-9f6b-7af715bb3657">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="ec145045-d410-4459-9488-c10ae143c5f0">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="b432e5b1-1ca5-4360-88bc-e8dc5de17b14">
+          <MeasureGroupID>Fact Reserva</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="3164d081-f4fb-494c-9005-36d94659cb41">
+              <MeasureID>Horas Duracion Reserva</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="50909431-85d6-40ed-ac8a-af68add24146">
+      <ID>Perspectiva 6</ID>
+      <Name>Reservas_por_Tipo</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="c93cb470-f3b6-4a3c-8440-c502b57fd4bd">
+          <CubeDimensionID>Dim Tipo Uso Reserva</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2b215d7e-7b75-45d0-8df7-07d34d1b9562">
+              <AttributeID>Id Tipo Uso Reserva SK</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f3fe5f1d-b724-4def-9c1e-eed39efbcf90">
+              <AttributeID>Uso Reserva</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="0b33dee3-2dbd-441b-9a2b-0c16945a9839">
+          <CubeDimensionID>Dim Usuario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7a7b222f-3edc-4d7d-b13c-033c7440daf8">
+              <AttributeID>User Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="eaa4ee84-ff1e-4cca-abf5-603269cec0e7">
+              <AttributeID>Cedula</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="f8362209-cc6f-474f-8db6-d5f3c38e08b6">
+              <AttributeID>Tipo Vinculacion</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="a0fc5622-c210-4621-8827-d1a69878c120">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="713c744a-6bdd-4306-bae0-7096f43048ad">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="336e5f37-db25-418b-9b03-28a70c6eebe7">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="4880f7d6-3c11-419d-b87b-6c9f1c81b42c">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="07a2d1ea-7fa4-4c96-9258-557e261e0056">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="6df22c84-c55b-419b-a214-fc3884445578">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="4647d5d2-241f-4626-83b6-e9597415961d">
+          <MeasureGroupID>Fact Reserva</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="6fdad927-94fa-40bc-a34d-99a8f4429e99">
+              <MeasureID>Cantidad Reservas</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+    <Perspective dwd:design-time-name="22d16e77-5faf-4c7f-b634-15f9319a667b">
+      <ID>Perspectiva 7</ID>
+      <Name>EstadoReservas_por_Dependencia</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <Dimensions>
+        <Dimension dwd:design-time-name="1251ec0c-b912-48c8-a38a-fbc878ae5fb6">
+          <CubeDimensionID>Dim Estado Reserva</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="afb9333e-93a9-418d-8249-704c73f4597c">
+              <AttributeID>Estado Reserva</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="e9c366d7-0bd2-4e94-a431-d06312e84deb">
+          <CubeDimensionID>Dim Dependencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="884b5aba-d9e8-4aa3-a25c-9a372551fa1a">
+              <AttributeID>Nombre Dependencia</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="1075962c-bb58-4695-9b07-98ec03a006a6">
+          <CubeDimensionID>Dim Usuario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="962077d4-e338-4401-8c5b-18d32c80aaa1">
+              <AttributeID>User Name</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="75cc6587-c8b6-4d38-ad4a-3f5f7ecddbad">
+              <AttributeID>Cedula</AttributeID>
+            </Attribute>
+            <Attribute dwd:design-time-name="49737a40-fd7a-472f-b034-12fb17a9db1e">
+              <AttributeID>Tipo Vinculacion</AttributeID>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension dwd:design-time-name="d0525fc8-87db-4187-aa67-45036e4b4044">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="1feb3939-34b3-4076-8d59-02860a3b21c4">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="283b1e43-dc6d-44a0-b58b-eecdcdfa4500">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="5291e324-1325-47e2-8513-754ce3edf32f">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+        <Dimension dwd:design-time-name="be10a8d8-314c-4522-b9d7-24c99c88f49a">
+          <CubeDimensionID>Dim Fecha</CubeDimensionID>
+          <Hierarchies>
+            <Hierarchy dwd:design-time-name="88a199c1-29e3-4013-b9a0-2d7bedc43c8f">
+              <HierarchyID>Jerarquía</HierarchyID>
+            </Hierarchy>
+          </Hierarchies>
+        </Dimension>
+      </Dimensions>
+      <MeasureGroups>
+        <MeasureGroup dwd:design-time-name="e25626e5-bcd8-4d22-9b0e-4a5d4061d1c3">
+          <MeasureGroupID>Fact Reserva</MeasureGroupID>
+          <Measures>
+            <Measure dwd:design-time-name="ff1b9430-f697-46e6-a5b4-4f193a94f100">
+              <MeasureID>Cantidad Reservas</MeasureID>
+            </Measure>
+          </Measures>
+        </MeasureGroup>
+      </MeasureGroups>
+    </Perspective>
+  </Perspectives>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9fe4eea7-364c-4783-9533-7ff90010e8dc">
+      <ID>Fact Reserva</ID>
+      <Name>Fact Reserva</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="3d3f91c8-9c46-42ae-9d8c-ac5dbdac7ad9">
+          <ID>Horas Duracion Reserva</ID>
+          <Name>Horas Duracion Reserva</Name>
+          <Source dwd:design-time-name="0415d7ed-1fcb-4642-b998-894ee6171d79">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2da6a2af-f97d-40df-b7d1-21f38f076522">
+              <TableID>dbo_Fact_Reserva</TableID>
+              <ColumnID>HorasDuracionReserva</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="581fad51-60d5-4421-bff0-c74e73ccf86f">
+          <ID>Dias Entre Soly Res</ID>
+          <Name>Dias Entre Soly Res</Name>
+          <Source dwd:design-time-name="aeef3747-38e3-4f46-93b3-f3c1bae0a13c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="29bd9896-2d12-4d86-bda2-9aa77688b481">
+              <TableID>dbo_Fact_Reserva</TableID>
+              <ColumnID>DiasEntreSolyRes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="dde24be8-8d96-4f21-99fc-c5a304fbaae4">
+          <ID>Cantidad Reservas</ID>
+          <Name>Cantidad Reservas</Name>
+          <Source dwd:design-time-name="13158c04-25d5-4712-9681-92ae9948d676">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dd947253-711f-4711-ac18-775fc3760f34">
+              <TableID>dbo_Fact_Reserva</TableID>
+              <ColumnID>CantidadReservas</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4600dee4-318f-40e8-82cd-5c76113f60f2">
+          <ID>Recuento Fact Reserva</ID>
+          <Name>Recuento Fact Reserva</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="30803546-335c-4104-a688-0fc8771f9a48">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="82abb371-5d49-4f7e-a5f3-248d56c0e8a7">
+              <TableID>dbo_Fact_Reserva</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedRows>18687</EstimatedRows>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5dbe3e6b-fd63-4d59-86b9-82b0cfe2b3c5">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="67e540d7-3df7-47f5-969c-5c1c7413d0ab">
+              <AttributeID>Id Hora</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ab86bbf5-a52e-4471-bf0b-f262a59a9de4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1e8f6ae3-1998-4ca6-9069-d895d98559db">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdHoraInicial</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5f72c0f7-b3c4-45c4-9f21-98419792b84c">
+          <CubeDimensionID>Dim Dependencia</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a33a568b-ae40-4d97-a4d8-5fc095d62b6e">
+              <AttributeID>Id Dependencia SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b310c580-668b-4151-bdaa-94d7941808b4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5115a185-7799-45e0-a455-7019ba7248a1">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdDependencia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52d7c33d-1401-409e-aaa2-ed04758c7e97">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="378fe113-790d-4632-b10f-931c32238e3f">
+              <AttributeID>Id Hora</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5b85d47d-2b1e-4387-9065-4ebc9b359831">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="52192cca-fed2-473e-94c8-50e9ac4ffbd1">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdHoraFinal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ebd233c8-c104-4c7c-9e57-772854d7fe2a">
+          <CubeDimensionID>Dim Tipo Uso Reserva</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="dbead90f-5189-4e95-9f60-3836a64f97be">
+              <AttributeID>Id Tipo Uso Reserva SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="039dd27b-3a19-47cb-a0b4-ee2dcd7f0940">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7cf00358-d38b-47c1-ab08-b658ee0cf02c">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdUsoReserva</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9b94f57f-926e-405c-b877-8c040dc850be">
+          <CubeDimensionID>Dim Usuario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cd887028-73bb-4e5c-9699-32dbff34eaae">
+              <AttributeID>User Id SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2869ee85-3379-45c9-8e3b-83bb4eb6a6ba">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="168e7eda-9466-4dc4-aa62-83fac9cb0551">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdUsuario</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9640598d-ca97-4f23-b435-a5e7cec003c5">
+          <CubeDimensionID>Dim Estado Reserva</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4e8a5dbe-f176-4345-bf16-e4a2686712c4">
+              <AttributeID>Id Estado Reserva</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e7e7799c-a239-4b46-b3f8-b1f273743c0f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d41ef781-b4ae-4adc-a473-3e47f9f97ae3">
+                    <TableID>dbo_Fact_Reserva</TableID>
+                    <ColumnID>IdEstadoReserva</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <AggregationDesigns />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="55355c0a-de90-4b7d-a404-7dd07ae83769">
+    <DataSourceViewID>Vista Reserva</DataSourceViewID>
+  </Source>
+</Cube>

@@ -1,0 +1,314 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2fc95b7e-9b61-4892-9c50-e71e0b8716c0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Grupo</ID>
+  <Name>Dim Grupo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1515" scrolltop="-2302" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="9604" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Grupo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3387" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003b0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Grupo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1515</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2302</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="134">
+            <Shape Id="Id Grupo SK" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Grupo SK" />
+                <Attribute Id="Capacidad" />
+                <Attribute Id="Intensivo" />
+                <Attribute Id="Jornada" />
+                <Attribute Id="Numero Grupo" />
+                <Attribute Id="Semestre" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Tipo Grupo" Expanded="false">
+              <Attributes>
+                <Attribute Id="Tipo Grupo" />
+              </Attributes>
+              <Position x="192" y="20" />
+            </Shape>
+            <Shape Id="Nombre Materia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Nombre Materia" />
+              </Attributes>
+              <Position x="365" y="20" />
+            </Shape>
+            <Shape Id="Nombre Programa" Expanded="false">
+              <Attributes>
+                <Attribute Id="Nombre Programa" />
+              </Attributes>
+              <Position x="537" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="b6e95083-adc4-42df-a23d-88bc7e354e0c">
+    <DataSourceViewID>Vista AsignacionClases</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="f264c96e-3a4d-4d88-84a0-9795bc9644cb">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="7355de81-138a-4158-aec8-95d63f0f08b9">
+      <ID>Id Grupo SK</ID>
+      <Name>Id Grupo SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>14867</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8523041e-faa1-4175-8cf2-64031b5b35e6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47979680-5369-44d5-8546-e25b2bba4679">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>IdGrupo_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0c47b6a3-23e1-4c36-b0a7-0b3f092f9078">
+          <AttributeID>Capacidad</AttributeID>
+          <Name>Capacidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b6ca269-d0d3-4566-8d75-1612a2294ce2">
+          <AttributeID>Numero Grupo</AttributeID>
+          <Name>Numero Grupo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="718d9c1f-fea0-41c9-9792-2059eba46b0a">
+          <AttributeID>Intensivo</AttributeID>
+          <Name>Intensivo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dcca0620-a22f-488a-a801-cb32f458a564">
+          <AttributeID>Tipo Grupo</AttributeID>
+          <Name>Tipo Grupo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e663d257-26e1-402d-8345-6fa9943f3761">
+          <AttributeID>Semestre</AttributeID>
+          <Name>Semestre</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="89e53d33-e769-47c1-bf8d-df894ef76bd2">
+          <AttributeID>Jornada</AttributeID>
+          <Name>Jornada</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e5304ade-20c9-484e-b2a9-83b49e50a5e3">
+      <ID>Capacidad</ID>
+      <Name>Capacidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6081d60-7e49-4930-8eab-01b337498508">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02749ff7-4316-40e7-9402-d7eb9b523e0f">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>Capacidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6f25f26b-6ba8-4041-9a7b-80cb28079a4c">
+      <ID>Numero Grupo</ID>
+      <Name>Numero Grupo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a61ef5c6-2f94-4317-b95c-33befa768e4c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc85e14c-df80-440b-893d-34633f209db7">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>NumeroGrupo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="11d818de-dd2c-4afa-8de3-d25919e0594a">
+      <ID>Intensivo</ID>
+      <Name>Intensivo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ae8027c8-00a9-420c-a384-afc1f3c39a77">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="700d9134-675d-4312-a1cc-a54649ee1f9f">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>Intensivo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6247301a-6cc9-4a6b-8cb8-a8e6c4cab4af">
+      <ID>Tipo Grupo</ID>
+      <Name>Tipo Grupo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="397727cc-49f4-4aee-9949-2d103a64e1d3">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8822cf5c-4ff8-46e8-813f-210b2a778b26">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>TipoGrupo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="b4311f9c-4357-4220-9547-01633b007491">
+          <AttributeID>Nombre Materia</AttributeID>
+          <Name>Nombre Materia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="23cbc3c8-8455-4f7b-a974-5585b3498cd6">
+      <ID>Nombre Materia</ID>
+      <Name>Nombre Materia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c8e60558-8262-4811-bd11-45c308c0adbf">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3345fed8-1fbb-4aed-bd1c-9f82858de922">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>NombreMateria</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="3d502a0d-1ae2-4f3d-82fb-f26fb9000344">
+          <AttributeID>Nombre Programa</AttributeID>
+          <Name>Nombre Programa</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6c237d70-8b2b-4f94-8b79-f6dca3a7419a">
+      <ID>Semestre</ID>
+      <Name>Semestre</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e35d6b30-2cdd-45ad-8abd-34301e647522">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42d1ceb7-454e-40c7-a3e9-51592a2ed351">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>Semestre</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="74c526a1-2769-4064-93b5-432b0c792faf">
+      <ID>Jornada</ID>
+      <Name>Jornada</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="92be990c-a7bb-449e-a7f7-83797699b9a6">
+          <DataType>WChar</DataType>
+          <DataSize>1</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ea1da46-9fae-4989-8516-931e9a58cb03">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>Jornada</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8f17c763-258f-4929-9b3a-26e7851a2b23">
+      <ID>Nombre Programa</ID>
+      <Name>Nombre Programa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="703c4894-d799-482a-b791-f856de897b64">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d292c3b-f7e5-49d8-a141-d8583453dfb2">
+            <TableID>dbo_Dim_Grupo</TableID>
+            <ColumnID>NombrePrograma</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="130f41e5-e675-4b28-99cf-5c8eac69657c">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="ce89d76b-edd8-4af1-a91f-2bfa63183250">
+          <ID>Nombre Programa</ID>
+          <Name>Nombre Programa</Name>
+          <SourceAttributeID>Nombre Programa</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="73c9e890-d216-4531-a65e-78cd691f9691">
+          <ID>Nombre Materia</ID>
+          <Name>Nombre Materia</Name>
+          <SourceAttributeID>Nombre Materia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a4c6d8c9-9e9c-4e85-98dd-55fca1e26029">
+          <ID>Tipo Grupo</ID>
+          <Name>Tipo Grupo</Name>
+          <SourceAttributeID>Tipo Grupo</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+</Dimension>

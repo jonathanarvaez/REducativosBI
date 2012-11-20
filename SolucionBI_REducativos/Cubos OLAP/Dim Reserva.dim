@@ -1,0 +1,173 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9cf3baee-e371-4bb6-9b73-aa2e840ba610" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Reserva</ID>
+  <Name>Dim Reserva</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1674" scrolltop="-5305" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="14182" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Reserva" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3069" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000fd0b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Reserva" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1674</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5305</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3d0bee77-c1c6-4011-bb24-fccdcd30c023">
+    <DataSourceViewID>DW R Educativos</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="9f94748f-642e-48ea-9ca9-51a9e99e4524">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="ce8c6109-c722-4c33-9d0e-299ac46e496d">
+      <ID>Id Reserva SK</ID>
+      <Name>Id Reserva SK</Name>
+      <Usage>Key</Usage>
+      <EstimatedCount>18687</EstimatedCount>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bf099219-4cc5-4c9c-8b44-36cec3bf4da2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8719cec6-d0b1-43b2-9787-6e6275514606">
+            <TableID>dbo_Dim_Reserva</TableID>
+            <ColumnID>IdReserva_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="84f8d159-57de-46eb-9f49-d873d175bbe2">
+          <AttributeID>Hora Final</AttributeID>
+          <Name>Hora Final</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c15d81a7-f600-4684-bec3-18a3c0fb3ce8">
+          <AttributeID>Hora Inicial</AttributeID>
+          <Name>Hora Inicial</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4b7116c7-0681-40a5-898b-ca699d318e59">
+          <AttributeID>Fecha Solicitud</AttributeID>
+          <Name>Fecha Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1ac6afba-ade0-47f9-aae4-7ba5644404d6">
+          <AttributeID>Fecha Reserva</AttributeID>
+          <Name>Fecha Reserva</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b4b9972-6038-422f-838c-7a705506b1a3">
+      <ID>Hora Final</ID>
+      <Name>Hora Final</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e87ae5fc-bb2e-42d9-a3aa-fcba0ed076c1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b974aab5-9837-40c0-ac99-13e06ad83e4f">
+            <TableID>dbo_Dim_Reserva</TableID>
+            <ColumnID>HoraFinal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3574f3fe-6f0f-4df3-beff-5d1744d323bb">
+      <ID>Hora Inicial</ID>
+      <Name>Hora Inicial</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="97607bc5-879d-4b6b-ba8c-1f46431eb4d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="04c8d3fd-a538-488a-ace6-d9296e9fcd34">
+            <TableID>dbo_Dim_Reserva</TableID>
+            <ColumnID>HoraInicial</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c4c16eab-c2fd-4390-b500-b29e6d90ce1b">
+      <ID>Fecha Solicitud</ID>
+      <Name>Fecha Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8bf30460-7be4-4930-a726-d3ec2d4e44a4">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="563df5a9-c18c-4ca2-baff-6032ef7403d3">
+            <TableID>dbo_Dim_Reserva</TableID>
+            <ColumnID>FechaSolicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e8443d86-5dfb-4308-80e5-f72af1b2d9d7">
+      <ID>Fecha Reserva</ID>
+      <Name>Fecha Reserva</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b75e5d8-332e-405d-8964-6470c0d57efc">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43966cff-44f5-4ced-adb1-c1e030645a8c">
+            <TableID>dbo_Dim_Reserva</TableID>
+            <ColumnID>FechaReserva</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

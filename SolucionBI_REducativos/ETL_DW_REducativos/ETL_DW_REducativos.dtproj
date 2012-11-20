@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProductVersion>10.50.1600.1</ProductVersion>
+  <SchemaVersion>9.0.1.0</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>ETL_DW_REducativos.database</Name>
+    <FullPath>ETL_DW_REducativos.database</FullPath>
+  </Database>
+  <Cubes />
+  <Dimensions />
+  <DataSources />
+  <DataSourceViews />
+  <MiningModels />
+  <Roles />
+  <Miscellaneous />
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+      </Options>
+    </Configuration>
+  </Configurations>
+  <DTSPackages>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Completo.dtsx</Name>
+      <FullPath>ETL_Completo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_CambioEspacio.dtsx</Name>
+      <FullPath>ETL_Dim_CambioEspacio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Dependencia.dtsx</Name>
+      <FullPath>ETL_Dim_Dependencia.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Empresa.dtsx</Name>
+      <FullPath>ETL_Dim_Empresa.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Espacio.dtsx</Name>
+      <FullPath>ETL_Dim_Espacio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_EstadoReserva.dtsx</Name>
+      <FullPath>ETL_Dim_EstadoReserva.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_EstadoReservaEspacio.dtsx</Name>
+      <FullPath>ETL_Dim_EstadoReservaEspacio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Evento.dtsx</Name>
+      <FullPath>ETL_Dim_Evento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Fecha.dtsx</Name>
+      <FullPath>ETL_Dim_Fecha.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Grupo.dtsx</Name>
+      <FullPath>ETL_Dim_Grupo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Hora.dtsx</Name>
+      <FullPath>ETL_Dim_Hora.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Recurso.dtsx</Name>
+      <FullPath>ETL_Dim_Recurso.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoMantenimiento.dtsx</Name>
+      <FullPath>ETL_Dim_TipoMantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoNovedad.dtsx</Name>
+      <FullPath>ETL_Dim_TipoNovedad.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoUsoReserva.dtsx</Name>
+      <FullPath>ETL_Dim_TipoUsoReserva.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Usuario.dtsx</Name>
+      <FullPath>ETL_Dim_Usuario.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_AsignacionClases.dtsx</Name>
+      <FullPath>ETL_Fact_AsignacionClases.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_AsignacionEspacio.dtsx</Name>
+      <FullPath>ETL_Fact_AsignacionEspacio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Mantenimiento.dtsx</Name>
+      <FullPath>ETL_Fact_Mantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Novedades.dtsx</Name>
+      <FullPath>ETL_Fact_Novedades.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Prestamo.dtsx</Name>
+      <FullPath>ETL_Fact_Prestamo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Reserva.dtsx</Name>
+      <FullPath>ETL_Fact_Reserva.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Package Base.dtsx</Name>
+      <FullPath>Package Base.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>Package.dtsx</Name>
+      <FullPath>Package.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_ReservaEspacio.dtsx</Name>
+      <FullPath>ETL_Fact_ReservaEspacio.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Recurso.dtsx</Name>
+      <FullPath>ETL_Dim_Recurso.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Reserva.dtsx</Name>
+      <FullPath>ETL_Fact_Reserva.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Empresa.dtsx</Name>
+      <FullPath>ETL_Dim_Empresa.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoMantenimiento.dtsx</Name>
+      <FullPath>ETL_Dim_TipoMantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoNovedad.dtsx</Name>
+      <FullPath>ETL_Dim_TipoNovedad.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Mantenimiento.dtsx</Name>
+      <FullPath>ETL_Fact_Mantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Novedades.dtsx</Name>
+      <FullPath>ETL_Fact_Novedades.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Completo.dtsx</Name>
+      <FullPath>ETL_Completo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+  </DTSPackages>
+</Project>

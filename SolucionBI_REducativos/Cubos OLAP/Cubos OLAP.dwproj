@@ -1,0 +1,164 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>10.50.1600.1</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>Cubos OLAP.database</Name>
+    <FullPath>Cubos OLAP.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Cubo Mantenimiento.cube</Name>
+      <FullPath>Cubo Mantenimiento.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo Mantenimiento.partitions</Name>
+          <FullPath>Cubo Mantenimiento.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo Novedades.cube</Name>
+      <FullPath>Cubo Novedades.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo Novedades.partitions</Name>
+          <FullPath>Cubo Novedades.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo Reserva.cube</Name>
+      <FullPath>Cubo Reserva.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo Reserva.partitions</Name>
+          <FullPath>Cubo Reserva.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo Prestamo.cube</Name>
+      <FullPath>Cubo Prestamo.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo Prestamo.partitions</Name>
+          <FullPath>Cubo Prestamo.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo AsignacionClases.cube</Name>
+      <FullPath>Cubo AsignacionClases.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo AsignacionClases.partitions</Name>
+          <FullPath>Cubo AsignacionClases.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dim Tipo Mantenimiento.dim</Name>
+      <FullPath>Dim Tipo Mantenimiento.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Empresa.dim</Name>
+      <FullPath>Dim Empresa.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Recurso.dim</Name>
+      <FullPath>Dim Recurso.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Fecha.dim</Name>
+      <FullPath>Dim Fecha.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tipos Novedad.dim</Name>
+      <FullPath>Dim Tipos Novedad.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Hora.dim</Name>
+      <FullPath>Dim Hora.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Dependencia.dim</Name>
+      <FullPath>Dim Dependencia.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Tipo Uso Reserva.dim</Name>
+      <FullPath>Dim Tipo Uso Reserva.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Usuario.dim</Name>
+      <FullPath>Dim Usuario.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Estado Reserva.dim</Name>
+      <FullPath>Dim Estado Reserva.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reserva.dim</Name>
+      <FullPath>Dim Reserva.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Grupo.dim</Name>
+      <FullPath>Dim Grupo.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Espacio.dim</Name>
+      <FullPath>Dim Espacio.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>DW_REducativos.ds</Name>
+      <FullPath>DW_REducativos.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Vista Mantenimiento.dsv</Name>
+      <FullPath>Vista Mantenimiento.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista Novedades.dsv</Name>
+      <FullPath>Vista Novedades.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista Reserva.dsv</Name>
+      <FullPath>Vista Reserva.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista Prestamo.dsv</Name>
+      <FullPath>Vista Prestamo.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista AsignacionClases.dsv</Name>
+      <FullPath>Vista AsignacionClases.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>DW_REducativos</Id>
+            <Name>DW_REducativos</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=BIPC;Integrated Security=SSPI;Initial Catalog=DW_REducativos</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>DW_REducativos</Id>
+            <Name>DW_REducativos</Name>
+            <Value xsi:type="xsd:int">0</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

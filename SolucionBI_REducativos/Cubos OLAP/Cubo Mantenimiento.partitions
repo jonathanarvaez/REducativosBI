@@ -1,0 +1,116 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="97951f65-3a79-4b23-9e2c-77734f8e279f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo Mantenimiento</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Mantenimiento</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="6ec1b1c6-dc60-4bdb-b8db-53290d7702f6">
+          <ID>Fact Mantenimiento</ID>
+          <Name>Fact Mantenimiento</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="292a911b-508d-4f4a-a36d-ba7852d75b1e">
+            <DataSourceViewID>Vista Mantenimiento</DataSourceViewID>
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <EstimatedRows>2</EstimatedRows>
+          <AggregationDesignID>AgregacionesMantenimiento</AggregationDesignID>
+        </Partition>
+      </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AgregacionesMantenimiento</ID>
+          <Name>AgregacionesMantenimiento</Name>
+          <CreatedTimestamp>2012-11-13T11:04:32.5Z</CreatedTimestamp>
+          <LastSchemaUpdate>2012-11-13T11:04:32.5Z</LastSchemaUpdate>
+          <EstimatedRows>2</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Tipo Mantenimiento</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Tipo Mantenimiento SK</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Tipo Mantenimiento</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Empresa</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Empresa SK</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Empresa</AttributeID>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Recurso</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Equipo SK</AttributeID>
+                  <EstimatedCount>186</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nombre Sede</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Categoria</AttributeID>
+                  <EstimatedCount>16</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Marca</AttributeID>
+                  <EstimatedCount>17</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Modelo</AttributeID>
+                  <EstimatedCount>36</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Fecha</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Id Fecha</AttributeID>
+                  <EstimatedCount>182</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Anyo</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Semestre</AttributeID>
+                  <EstimatedCount>1</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Trimestre</AttributeID>
+                  <EstimatedCount>2</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Mes</AttributeID>
+                  <EstimatedCount>6</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dia Mes</AttributeID>
+                  <EstimatedCount>31</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+        </AggregationDesign>
+      </AggregationDesigns>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>
