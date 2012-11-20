@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
 Project("{D183A3D8-5FD8-494B-B014-37F57B35E655}") = "ETL_DW_REducativos", "ETL_DW_REducativos\ETL_DW_REducativos.dtproj", "{90F074FF-483C-49AB-9554-EC52A6384DCC}"
 EndProject
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CubosSSAS_REducativos", "Cubos OLAP\CubosSSAS_REducativos.dwproj", "{239436B5-92A0-4FB6-BC0F-11FED090365D}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CubosSSAS_REducativos", "CubosSSAS_REducativos\CubosSSAS_REducativos.dwproj", "{239436B5-92A0-4FB6-BC0F-11FED090365D}"
 EndProject
-Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportesSSRS_REducativos", "Proyecto de informe1\ReportesSSRS_REducativos.rptproj", "{5AA78220-9EF5-4BC1-A217-DC443710EBDE}"
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "ReportesSSRS_REducativos", "ReportesSSRS_REducativos\ReportesSSRS_REducativos.rptproj", "{5AA78220-9EF5-4BC1-A217-DC443710EBDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
