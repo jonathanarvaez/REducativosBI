@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b8ba6684-b30d-4e59-8960-67224da30312" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>AReservas</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Reserva</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="250e1999-bd20-4f1c-8c84-c21f509756ae">
+          <ID>Fact Reserva</ID>
+          <Name>Fact Reserva</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b99d4476-3abc-4e91-8d3f-2e2194123501">
+            <DataSourceViewID>DW R Educativos 1</DataSourceViewID>
+            <TableID>dbo_Fact_Reserva</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

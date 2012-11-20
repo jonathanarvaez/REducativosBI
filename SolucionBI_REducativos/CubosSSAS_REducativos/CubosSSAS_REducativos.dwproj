@@ -57,6 +57,16 @@
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
+    <ProjectItem>
+      <Name>AReservas.cube</Name>
+      <FullPath>AReservas.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>AReservas.partitions</Name>
+          <FullPath>AReservas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
@@ -111,6 +121,42 @@
       <Name>Dim Espacio.dim</Name>
       <FullPath>Dim Espacio.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Dependencia.dim</Name>
+      <FullPath>Dim_Dependencia.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Espacio.dim</Name>
+      <FullPath>Dim_Espacio.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_EstadoReserva.dim</Name>
+      <FullPath>Dim_EstadoReserva.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Fecha.dim</Name>
+      <FullPath>Dim_Fecha.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Hora.dim</Name>
+      <FullPath>Dim_Hora.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_TipoUsoReserva.dim</Name>
+      <FullPath>Dim_TipoUsoReserva.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Usuario.dim</Name>
+      <FullPath>Dim_Usuario.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim_Categoria.dim</Name>
+      <FullPath>Dim_Categoria.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact_Reserva.dim</Name>
+      <FullPath>Fact_Reserva.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -120,6 +166,14 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
+      <Name>AReservas.dsv</Name>
+      <FullPath>AReservas.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista AsignacionClases.dsv</Name>
+      <FullPath>Vista AsignacionClases.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>Vista Mantenimiento.dsv</Name>
       <FullPath>Vista Mantenimiento.dsv</FullPath>
     </ProjectItem>
@@ -128,16 +182,12 @@
       <FullPath>Vista Novedades.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Vista Reserva.dsv</Name>
-      <FullPath>Vista Reserva.dsv</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Vista Prestamo.dsv</Name>
       <FullPath>Vista Prestamo.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Vista AsignacionClases.dsv</Name>
-      <FullPath>Vista AsignacionClases.dsv</FullPath>
+      <Name>Vista Reserva.dsv</Name>
+      <FullPath>Vista Reserva.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

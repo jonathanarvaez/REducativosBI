@@ -11,7 +11,7 @@
 <DTS:Property DTS:Name="VersionMajor">1</DTS:Property>
 <DTS:Property DTS:Name="VersionMinor">0</DTS:Property>
 <DTS:Property DTS:Name="VersionBuild">23</DTS:Property>
-<DTS:Property DTS:Name="VersionGUID">{608273A8-66DE-41A7-B2B4-7668EE3F1B77}</DTS:Property>
+<DTS:Property DTS:Name="VersionGUID">{3ABB72E3-5BEF-4874-89CF-AB8212D42F2B}</DTS:Property>
 <DTS:Property DTS:Name="EnableConfig">-1</DTS:Property>
 <DTS:Property DTS:Name="CheckpointFileName"></DTS:Property>
 <DTS:Property DTS:Name="SaveCheckpoints">0</DTS:Property>

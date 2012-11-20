@@ -1,0 +1,115 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cd00c621-b372-4f68-bd06-003e2020aa9b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim_TipoUsoReserva</ID>
+  <Name>Dim_TipoUsoReserva</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a20ade4d-588e-4620-893f-981f7e6f90c7">
+    <DataSourceViewID>DW R Educativos 1</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="b768aec0-17ac-4f2e-ac53-2c56cdcb1955">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="506887d8-f70c-4b32-b9e4-4c704787ac49">
+      <ID>Id Tipo Uso Reserva SK</ID>
+      <Name>Id Tipo Uso Reserva SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aa0302df-c854-4664-bd44-ca69b608b274">
+          <NullProcessing>UnknownMember</NullProcessing>
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f70d2d10-dda3-469d-a602-7c2dfab29201">
+            <TableID>dbo_Dim_TipoUsoReserva</TableID>
+            <ColumnID>IdTipoUsoReserva_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1940937f-286e-4cbb-ba08-4203f283e076">
+          <AttributeID>Id Tipo Uso Reserva BK</AttributeID>
+          <Name>Id Tipo Uso Reserva BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c6a129b-86db-4117-aa94-5acc90813b6d">
+          <AttributeID>Uso Reserva</AttributeID>
+          <Name>Uso Reserva</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b8ca4628-a97a-4ab7-9795-792af49ad652">
+      <ID>Id Tipo Uso Reserva BK</ID>
+      <Name>Id Tipo Uso Reserva BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3eb4f1f4-90c3-4af1-b8a0-61f824222764">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="89b153bf-a055-4189-baef-28544dd2e726">
+            <TableID>dbo_Dim_TipoUsoReserva</TableID>
+            <ColumnID>IdTipoUsoReserva_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b87274f5-614e-4425-9780-eaf01ea15ae7">
+      <ID>Uso Reserva</ID>
+      <Name>Uso Reserva</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5a895f18-91c2-40dd-9b0f-f25fee7569c5">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d430a32a-3cb8-4fde-813a-044c77d036a2">
+            <TableID>dbo_Dim_TipoUsoReserva</TableID>
+            <ColumnID>UsoReserva</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>
