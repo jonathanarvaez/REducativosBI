@@ -18,24 +18,24 @@
       <FullPath>EstadoReservas_por_Dependencia.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Reservas_por_Dependencia.rdl</Name>
-      <FullPath>Reservas_por_Dependencia.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Reservas_por_Tipo.rdl</Name>
-      <FullPath>Reservas_por_Tipo.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Prestamo_por_Recurso.rdl</Name>
-      <FullPath>Prestamo_por_Recurso.rdl</FullPath>
+      <Name>Horas Prestamo_por_Recurso.rdl</Name>
+      <FullPath>Horas Prestamo_por_Recurso.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Prestamo_por_Espacio.rdl</Name>
       <FullPath>Prestamo_por_Espacio.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Horas Prestamo_por_Recurso.rdl</Name>
-      <FullPath>Horas Prestamo_por_Recurso.rdl</FullPath>
+      <Name>Prestamo_por_Recurso.rdl</Name>
+      <FullPath>Prestamo_por_Recurso.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reservas_por_Dependencia.rdl</Name>
+      <FullPath>Reservas_por_Dependencia.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Reservas_por_Tipo.rdl</Name>
+      <FullPath>Reservas_por_Tipo.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>

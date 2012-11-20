@@ -33,6 +33,11 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
+      <Name>ETL_Completo.dtsx</Name>
+      <FullPath>ETL_Completo.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
       <Name>ETL_Dim_CambioEspacio.dtsx</Name>
       <FullPath>ETL_Dim_CambioEspacio.dtsx</FullPath>
       <References />
@@ -40,6 +45,11 @@
     <DtsPackage FormatVersion="3">
       <Name>ETL_Dim_Dependencia.dtsx</Name>
       <FullPath>ETL_Dim_Dependencia.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Empresa.dtsx</Name>
+      <FullPath>ETL_Dim_Empresa.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
@@ -88,8 +98,23 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Recurso.dtsx</Name>
+      <FullPath>ETL_Dim_Recurso.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
       <Name>ETL_Dim_TipoMantenimiento.dtsx</Name>
       <FullPath>ETL_Dim_TipoMantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoMantenimiento.dtsx</Name>
+      <FullPath>ETL_Dim_TipoMantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_TipoNovedad.dtsx</Name>
+      <FullPath>ETL_Dim_TipoNovedad.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
@@ -123,6 +148,16 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Mantenimiento.dtsx</Name>
+      <FullPath>ETL_Fact_Mantenimiento.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Fact_Novedades.dtsx</Name>
+      <FullPath>ETL_Fact_Novedades.dtsx</FullPath>
+      <References />
+    </DtsPackage>
+    <DtsPackage FormatVersion="3">
       <Name>ETL_Fact_Novedades.dtsx</Name>
       <FullPath>ETL_Fact_Novedades.dtsx</FullPath>
       <References />
@@ -138,13 +173,8 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>Package Base.dtsx</Name>
-      <FullPath>Package Base.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>Package.dtsx</Name>
-      <FullPath>Package.dtsx</FullPath>
+      <Name>ETL_Fact_Reserva.dtsx</Name>
+      <FullPath>ETL_Fact_Reserva.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
@@ -153,43 +183,13 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>ETL_Dim_Recurso.dtsx</Name>
-      <FullPath>ETL_Dim_Recurso.dtsx</FullPath>
+      <Name>Package Base.dtsx</Name>
+      <FullPath>Package Base.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>ETL_Fact_Reserva.dtsx</Name>
-      <FullPath>ETL_Fact_Reserva.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Dim_Empresa.dtsx</Name>
-      <FullPath>ETL_Dim_Empresa.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Dim_TipoMantenimiento.dtsx</Name>
-      <FullPath>ETL_Dim_TipoMantenimiento.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Dim_TipoNovedad.dtsx</Name>
-      <FullPath>ETL_Dim_TipoNovedad.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Fact_Mantenimiento.dtsx</Name>
-      <FullPath>ETL_Fact_Mantenimiento.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Fact_Novedades.dtsx</Name>
-      <FullPath>ETL_Fact_Novedades.dtsx</FullPath>
-      <References />
-    </DtsPackage>
-    <DtsPackage FormatVersion="3">
-      <Name>ETL_Completo.dtsx</Name>
-      <FullPath>ETL_Completo.dtsx</FullPath>
+      <Name>Package.dtsx</Name>
+      <FullPath>Package.dtsx</FullPath>
       <References />
     </DtsPackage>
   </DTSPackages>
