@@ -1,0 +1,630 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7ba8f34c-fa8f-428a-80f6-16683fc5ebf7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboPrestamos</ID>
+  <Name>CuboPrestamos</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="14422ef7-dd73-4abe-96b7-111d05c6b83e">
+      <ID>Fact Prestamo</ID>
+      <Name>Fact Prestamo</Name>
+      <DimensionID>Fact PrestamoP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="58967748-2079-42ea-8509-2026e01e6ed1">
+          <AttributeID>Id Prestamo SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90bc3990-05ab-4624-afde-a3eb1c67c3c0">
+          <AttributeID>Id Prestamo BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ca5fe13-eb82-48ee-a02b-5304120d3bda">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ee4b94e-54a4-4286-8d86-81ee936e4729">
+          <AttributeID>Id Espacio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1039a26-10cb-4b2c-8b78-cd3baeabcbb4">
+          <AttributeID>Id Equipo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fa4d07c-0741-47e4-abf2-464701f118f6">
+          <AttributeID>Id Fecha Prestamo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4380a270-ba36-4962-8d8e-48d201a473df">
+          <AttributeID>Id Fecha Solicitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96eae221-0194-4e34-8239-04cc2ade172c">
+          <AttributeID>Id Hora Inicial</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="67ad07f1-247d-4a9a-88ca-7d581751ba53">
+          <AttributeID>Id Hora Final</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="493c2404-235f-4632-8f45-697db1b17fa5">
+          <AttributeID>Id Reserva</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1ff62605-7fed-42c3-b020-a7f2eed9befe">
+      <ID>Id Hora Final</ID>
+      <Name>Id Hora Final</Name>
+      <DimensionID>Dim HoraP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="665f1dec-2dee-44f5-a123-53665f473df3">
+          <AttributeID>Id Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ebc34540-ad33-41ec-aaaa-0c7827fbafeb">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5153de02-2d81-4d33-95c9-ce633360ad21">
+          <AttributeID>Parte Del Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1f938aa-c852-40ee-bf98-3aacecf7defd">
+          <AttributeID>Am Pm</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be11b037-b040-411e-8b1d-e41c7edcaf75">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="cdf035b5-b12c-4c95-90ed-f6b7ff7f4429">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="040e2d1c-1000-4a2d-afb1-804191205ef9">
+      <ID>Id Hora Inicial</ID>
+      <Name>Id Hora Inicial</Name>
+      <DimensionID>Dim HoraP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6b8875d4-501b-48fa-a5a8-062342b8797b">
+          <AttributeID>Id Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d246208-8443-464f-861d-6d6af3ad5372">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33aa0aa4-9855-4dc6-a81d-5493f264778a">
+          <AttributeID>Parte Del Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ee0770a-ff2b-4f36-ad8b-aa6f144ea0d8">
+          <AttributeID>Am Pm</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1769c9c9-d095-4199-a111-2825dbab3c15">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1dca15fb-d02f-4566-89b0-6696db186da3">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d5277dfe-41c0-4b1b-8287-9861e6ce2195">
+      <ID>Id Fecha Solicitud</ID>
+      <Name>Id Fecha Solicitud</Name>
+      <DimensionID>Dim Fecha 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e912614f-42ef-43e6-85ea-1000af803a82">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75660670-4c57-484f-a325-8807baefa2d3">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ac2a32e-9c75-4bed-b829-de723b47cf74">
+          <AttributeID>Descripcion Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc770d4b-4d07-4b61-a16a-e7032ae6ffc3">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bda06eb9-5135-469c-89ec-f3b61f653f2e">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f86e0805-07d3-4222-8193-33ff413479fd">
+          <AttributeID>Numero Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c56707a1-396b-4d9a-bb66-dc4c69dbfd2f">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc0d3576-9731-40a6-a9b9-98408fda7961">
+          <AttributeID>Numero Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c6643b72-65d7-409e-899f-1cf911950076">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9745d47a-41fb-44b6-ae47-f3772865f7c4">
+          <AttributeID>Numero Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="feec42bb-3410-41e2-9246-d3e7b3058ad5">
+          <AttributeID>Semana Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7319d2b4-7990-4c0a-a80b-41cdf082b117">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="468cd415-aefe-49be-890a-6d66c70e311d">
+          <AttributeID>Dia Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f097b115-cef1-4ef4-87b5-27e241e73026">
+          <AttributeID>Numero Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bee1e19b-a2f2-413b-bab9-8f304fa48a2c">
+          <AttributeID>Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2cb1d77-2d5c-4ea4-8fc8-8a101061788f">
+          <AttributeID>Semana Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e54f471b-a99c-4832-b688-fdb55e7b8762">
+          <AttributeID>Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e7ecd1b8-b90e-47fc-b322-4345064adf69">
+          <AttributeID>Numero Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ae2ce8c-dc64-4a09-94b3-d782ab945036">
+          <AttributeID>Numero Mes Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3dfe9c5f-ed1c-42a6-aaf1-e80bcc00dcf3">
+          <AttributeID>Dia Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3edb8e5d-8f4d-473e-b487-bba4ac1985ec">
+          <AttributeID>Indicador Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c948bc6-f199-445b-85a5-f4073cb17979">
+          <AttributeID>Indicador Festivo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7a03e54a-2fa3-46da-9c7b-266dc6e6d9c1">
+          <AttributeID>Ultimo Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="787942b1-ca29-4647-812c-ceea3ff01ec7">
+          <AttributeID>Ultimo Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75b3bd45-0e26-40ac-bf43-0754ff144d04">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="38abbc66-a15f-420e-8840-3bdb9a13c7dc">
+          <AttributeID>Mes 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8ddb2551-06d8-4d0b-b184-7290530bfd2b">
+          <AttributeID>Dia Mes 1</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="36ef6fd5-4de2-4ec2-87bf-630d60a45be1">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="fec717c0-06e8-4b0c-9fb6-e8ff7092eb9e">
+          <HierarchyID>Jerarquía 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d85f9330-85f8-46d5-9abc-bf8374b4656b">
+      <ID>Id Fecha Prestamo</ID>
+      <Name>Id Fecha Prestamo</Name>
+      <DimensionID>Dim Fecha 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="23529048-738b-4432-bccc-35e5fa2635df">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dc40ec2e-7a86-4f2b-b548-4540aec067e8">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6286e91e-5a52-47b4-9858-36a38d56f990">
+          <AttributeID>Descripcion Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ebcd812-6a02-4a58-9c18-dbfd6a910885">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ea8dff8-cef0-4897-85d2-e931b2964034">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c63382db-77e6-4494-8903-890c4d5231c8">
+          <AttributeID>Numero Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="287cad17-7230-4561-b363-f5a73f9442a8">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="460a60b8-3757-4c1f-896f-6733b355c5d0">
+          <AttributeID>Numero Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce2006bc-707d-46a3-bb3b-1d2f78d0b325">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8f9fb2b7-175f-4dcf-8bcf-475262289fc8">
+          <AttributeID>Numero Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53c7ffb8-0908-4504-87e6-b9a024b61b05">
+          <AttributeID>Semana Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a526e87d-7864-4ed3-8077-f720c730075d">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9775f3f9-ab94-4ace-89ed-2dd8f0c7ca59">
+          <AttributeID>Dia Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d77ec3ec-9c1e-42a0-b5a8-05b1e5bf0f46">
+          <AttributeID>Numero Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ea17990d-68c5-4528-b8c0-13825cc1c146">
+          <AttributeID>Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fe987acd-03dd-4488-a839-1f2880a80bdb">
+          <AttributeID>Semana Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d200a1aa-c7cf-4458-bd54-8d318ab8d5f2">
+          <AttributeID>Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ebd1a16-d877-426c-8f6c-fb7f55e0005c">
+          <AttributeID>Numero Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="989161be-66be-4abc-995e-005997baa9f6">
+          <AttributeID>Numero Mes Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="96f31ce6-50f6-448a-a060-ff4f452c7305">
+          <AttributeID>Dia Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="48fceb43-4bf2-4045-b45c-1ba06dcc5aad">
+          <AttributeID>Indicador Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5ae06276-ceaf-4d81-ba81-62696e4d1113">
+          <AttributeID>Indicador Festivo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ca0aad6-8acf-4665-8a89-89075dbba11d">
+          <AttributeID>Ultimo Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1eab55a8-469a-409b-b8c8-0c240628e658">
+          <AttributeID>Ultimo Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ff891cc-8c59-43c2-b4a7-c5be3079f5ed">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ae538f5d-ad13-4857-a021-8d1f76a4671f">
+          <AttributeID>Mes 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87e9a0d0-8c98-415b-a2e9-0a2884687e4c">
+          <AttributeID>Dia Mes 1</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="feaa0562-7651-4c4a-9331-9445f00fdb76">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="04a2793f-5053-4099-964d-81e04d71d5a9">
+          <HierarchyID>Jerarquía 1</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5484954a-7954-4ece-8e05-04b9f47de811">
+      <ID>Dim RecursoP</ID>
+      <Name>Dim RecursoP</Name>
+      <DimensionID>Dim RecursoP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="62ddecfd-7d7b-4d23-924c-0fc48546ca75">
+          <AttributeID>Id Equipo SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="98f2c10a-42cf-49ab-8243-4b04dcf8cf1e">
+          <AttributeID>Id Equipo BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c96d469d-aa41-493b-9db6-c34023a39c77">
+          <AttributeID>Serie</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="773e0b08-6a91-47a1-97c5-8ddea2cdc488">
+          <AttributeID>Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3c6c466f-5bf5-4c59-8517-1fb6a38b62cf">
+          <AttributeID>Modelo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f407088-bb10-4242-84c4-76e8ce85324c">
+          <AttributeID>Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc8a971f-c0a2-4117-ae8b-ff9003fa1a2a">
+          <AttributeID>Intervalo Mantenimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ff1a687f-e794-458f-ad10-c554c99b9c70">
+          <AttributeID>Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="522832b3-755a-4bc0-8a65-babef723bf43">
+          <AttributeID>Nombre Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81ecf736-49b8-4d08-bc8a-8c801ead34a4">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1cacc08a-2556-4143-8d40-e0bcd310f02d">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="32ab89d7-b7a2-487e-af95-2b88c417256b">
+      <ID>Dim EspacioP</ID>
+      <Name>Dim EspacioP</Name>
+      <DimensionID>Dim EspacioP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1eb46e5b-a96f-4ad2-b604-218f9ae1a727">
+          <AttributeID>Id Espacio SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f4ffdcbc-810b-4959-b8c1-f8be3c75d8d5">
+          <AttributeID>Id Espacio BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c02aa340-9b71-46a5-bc1c-165858518fc1">
+          <AttributeID>Espacio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d3243f9-09c1-4776-8746-ac6d96e664c0">
+          <AttributeID>Bloque</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d094da6-9761-4189-a648-bc224d9e63ef">
+          <AttributeID>Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="84afb6f2-8c73-45f9-8c87-5e569d492309">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b93bb96c-d8bf-4382-9362-a51ba601e5a0">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="7a3d327b-0f75-4a52-9f58-297ca8f291da">
+      <ID>Dim ReservaP</ID>
+      <Name>Dim ReservaP</Name>
+      <DimensionID>Dim ReservaP</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="18511c21-7f82-4bde-9410-512902a030e7">
+          <AttributeID>Id Reserva SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="258f5271-bfeb-40e2-9b16-d2c9c3830571">
+          <AttributeID>Id Reserva BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5f09a81a-80de-4909-ae88-1a9dae6ffe07">
+          <AttributeID>Hora Final</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4a636f3-ad87-4160-a2f6-1aecd1428de6">
+          <AttributeID>Hora Inicial</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="4dc019cc-161b-45ff-be99-2e370541f8ac">
+      <ID>Fact Prestamo</ID>
+      <Name>Fact Prestamo</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="797f81bc-5492-4a6d-83a2-df1fe7f4e2e4">
+          <ID>Cantidad Prestamos</ID>
+          <Name>Cantidad Prestamos</Name>
+          <Source dwd:design-time-name="457d0899-5189-45f7-885c-d3e2d64771fa">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9fab9cf6-7ba7-4ae3-a4e1-521b14ecec9b">
+              <TableID>dbo_Fact_Prestamo</TableID>
+              <ColumnID>CantidadPrestamos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f4002a6b-95b0-4e1c-9e01-39f4f9ba1329">
+          <ID>Dias Entre Sol Y Res</ID>
+          <Name>Dias Entre Sol Y Res</Name>
+          <Source dwd:design-time-name="25c0117b-449d-4a24-b271-23c3803c2fbb">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="c50a15ef-d961-46be-8f11-d19f0df1ca17">
+              <TableID>dbo_Fact_Prestamo</TableID>
+              <ColumnID>DiasEntreSolYRes</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1b2c15e9-8bbf-4eef-a8ee-fd7f6d08ae38">
+          <ID>Horas Duracion Prestamo</ID>
+          <Name>Horas Duracion Prestamo</Name>
+          <Source dwd:design-time-name="98487a17-18ad-44fc-b2ed-3df53585ddf4">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="43edd9fc-439d-4a00-bfcf-614298f4bb83">
+              <TableID>dbo_Fact_Prestamo</TableID>
+              <ColumnID>HorasDuracionPrestamo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d90ae692-584f-4237-b432-e0d69582d0b9">
+          <ID>Recuento Fact Prestamo</ID>
+          <Name>Recuento Fact Prestamo</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="41e57030-2e2f-4b9d-9216-a2c729576df4">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c44e5270-8eeb-4f92-bdaf-83941193cdb9">
+              <TableID>dbo_Fact_Prestamo</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="f007e308-8689-4e18-b143-8dcdf1c3ddb4">
+          <CubeDimensionID>Fact Prestamo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b8c5258f-d81f-4c87-af9b-0ea819606e88">
+              <AttributeID>Id Prestamo SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbc4e18c-73c2-4689-867f-6402758ab713">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e2356a9-6a5f-45b8-8a89-68fa7ab1b227">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdPrestamo_SK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="17f45fc8-6422-4eab-864b-e3413b44d62b">
+          <CubeDimensionID>Id Hora Final</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b8cee3ad-c136-4985-80ee-8fda0bafb798">
+              <AttributeID>Id Hora</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a86a237e-5812-4d63-9622-eaad7178fa22">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ba377669-49e2-4afc-a3b1-f2be0cee0baa">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdHoraFinal</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cc36d5e7-e9d0-4b82-810f-f34b2c041bc0">
+          <CubeDimensionID>Id Hora Inicial</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7b9d1180-0868-4256-9ce0-d2ec37e8b6eb">
+              <AttributeID>Id Hora</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2a7fe01a-3793-46e1-9a63-3ea918d741ae">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7f2eeff0-92e3-42a0-b8e3-196c9425b91d">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdHoraInicial</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a2c6581d-594a-4e82-b204-6f916819a91f">
+          <CubeDimensionID>Id Fecha Solicitud</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1fd49919-9b01-4f41-9b37-92b073a9ec5d">
+              <AttributeID>Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="39a316f0-2243-456f-864e-04474b6ef827">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="81973119-a5ae-41a6-8eff-c262554205a1">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdFechaSolicitud</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d777d3e4-2f55-4745-ae6e-e7f428901cbb">
+          <CubeDimensionID>Id Fecha Prestamo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1d9df79c-1c2a-46ce-adb5-4f4a6ad321ec">
+              <AttributeID>Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c4d19b4e-d6d4-43a6-a2b4-9311594609d7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="94fd7076-358b-4207-9607-9db75ced5974">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdFechaPrestamo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ba163137-eeb4-467d-bf21-ea4dc33c95bd">
+          <CubeDimensionID>Dim RecursoP</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="18e5cef9-414f-454d-8fe0-ab45e3a3171a">
+              <AttributeID>Id Equipo SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="77a8e586-3b45-433e-870a-e6f1fe9ede4c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c96b5b5b-c3ce-4da8-a975-b0ed33909f17">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdEquipo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1b451029-449f-492f-9cc8-8e04e9f8d9dd">
+          <CubeDimensionID>Dim EspacioP</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c82a12c1-193a-432a-b7c5-67c8991b9ab5">
+              <AttributeID>Id Espacio SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cfb0b786-b19d-4d4a-b567-43d47a432a94">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="277360e1-2300-49e2-8aff-71a4f7b126dc">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdEspacio</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="085b1a25-9141-46cb-929b-a8208c5625e2">
+          <CubeDimensionID>Dim ReservaP</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="674dd9a5-af3d-4e06-825a-16c124ef5505">
+              <AttributeID>Id Reserva SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c238b359-91b7-4b76-80c7-5f905fab9af5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="15d0b99d-dfc2-42d3-97ee-525980544b51">
+                    <TableID>dbo_Fact_Prestamo</TableID>
+                    <ColumnID>IdReserva</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="621f9bc0-a0e0-45da-a93b-7481b2f47be3">
+    <DataSourceViewID>DW R Educativos</DataSourceViewID>
+  </Source>
+</Cube>

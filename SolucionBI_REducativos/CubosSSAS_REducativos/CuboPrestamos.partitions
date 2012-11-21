@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4d7827d8-6705-47f0-a1b9-3160663b5837" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboPrestamos</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Prestamo</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="c6fdb958-1ab7-4e44-9713-5a473f943553">
+          <ID>Fact Prestamo</ID>
+          <Name>Fact Prestamo</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="98ed682c-896a-4e6c-b13b-7d1f01cff62c">
+            <DataSourceViewID>DW R Educativos</DataSourceViewID>
+            <TableID>dbo_Fact_Prestamo</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

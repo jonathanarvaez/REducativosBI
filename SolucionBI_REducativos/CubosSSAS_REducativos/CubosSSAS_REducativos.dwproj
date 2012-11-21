@@ -18,16 +18,6 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>CuboPrestamo.cube</Name>
-      <FullPath>CuboPrestamo.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>CuboPrestamo.partitions</Name>
-          <FullPath>CuboPrestamo.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>CuboMantenimiento.cube</Name>
       <FullPath>CuboMantenimiento.cube</FullPath>
       <Dependencies>
@@ -54,6 +44,16 @@
         <ProjectItem>
           <Name>CuboReservaEspacios.partitions</Name>
           <FullPath>CuboReservaEspacios.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>CuboPrestamos.cube</Name>
+      <FullPath>CuboPrestamos.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>CuboPrestamos.partitions</Name>
+          <FullPath>CuboPrestamos.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
