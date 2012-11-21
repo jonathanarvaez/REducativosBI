@@ -192,5 +192,10 @@
       <FullPath>Package.dtsx</FullPath>
       <References />
     </DtsPackage>
+    <DtsPackage FormatVersion="3">
+      <Name>ETL_Dim_Periodo (1).dtsx</Name>
+      <FullPath>ETL_Dim_Periodo (1).dtsx</FullPath>
+      <References />
+    </DtsPackage>
   </DTSPackages>
 </Project>
