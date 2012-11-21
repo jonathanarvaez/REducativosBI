@@ -63,8 +63,8 @@
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
-      <Name>ETL_Dim_EstadoReserva (1).dtsx</Name>
-      <FullPath>ETL_Dim_EstadoReserva (1).dtsx</FullPath>
+      <Name>ETL_Dim_EstadoReserva.dtsx</Name>
+      <FullPath>ETL_Dim_EstadoReserva.dtsx</FullPath>
       <References />
     </DtsPackage>
     <DtsPackage FormatVersion="3">
