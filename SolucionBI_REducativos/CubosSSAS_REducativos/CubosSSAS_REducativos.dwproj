@@ -187,10 +187,6 @@
       <Name>Fact Reserva EspaciosREsp.dim</Name>
       <FullPath>Fact Reserva EspaciosREsp.dim</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Dim Fecha Prueba.dim</Name>
-      <FullPath>Dim Fecha Prueba.dim</FullPath>
-    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

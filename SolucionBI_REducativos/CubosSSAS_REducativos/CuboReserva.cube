@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="47" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2373" scrolltop="15253" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16060" y="8916" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2373" scrolltop="15253" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16060" y="8916" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -499,10 +499,19 @@
         <Attribute dwd:design-time-name="636f0e0f-f7ca-4c5f-9608-b10558e549f2">
           <AttributeID>Fecha Caducidad</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="943073d1-156b-4d5d-b239-94ec34299ddc">
+          <AttributeID>Mes 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b891adfe-ea61-4715-8050-56667104a73c">
+          <AttributeID>Dia Mes 1</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="8fb3b117-4d4b-4aa0-b564-e26f9a10b2e1">
           <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="8dd48d15-3c38-4d73-98c7-c5d0dc0b4b54">
+          <HierarchyID>Jerarquía 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -586,10 +595,19 @@
         <Attribute dwd:design-time-name="dff3cd67-7f7b-4cde-8fc6-a8d9ce306d3e">
           <AttributeID>Fecha Caducidad</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="ae73bbe7-7a6b-44bb-93e6-65803f30f575">
+          <AttributeID>Mes 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="90f1684a-844c-4d9e-930e-022a784c54bf">
+          <AttributeID>Dia Mes 1</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="9cdd54e2-e0d3-4598-b527-c9c315a53fac">
           <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="6caa3569-5716-4de3-90f4-eca1a5cda22b">
+          <HierarchyID>Jerarquía 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -851,10 +869,19 @@
         <Attribute dwd:design-time-name="d97f9e71-2569-492b-a770-482d0eeca4ef">
           <AttributeID>Fecha Caducidad</AttributeID>
         </Attribute>
+        <Attribute dwd:design-time-name="14e4c464-5ca7-48fd-99a3-06b0ebc5f1bb">
+          <AttributeID>Mes 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a534fe54-e7de-4048-8ebc-e0eef607237a">
+          <AttributeID>Dia Mes 1</AttributeID>
+        </Attribute>
       </Attributes>
       <Hierarchies>
         <Hierarchy dwd:design-time-name="f47ffd68-e9ce-4f45-87b4-26e9c330dc8e">
           <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+        <Hierarchy dwd:design-time-name="7183060d-ff96-4b49-9183-b1f1212bf7af">
+          <HierarchyID>Jerarquía 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>

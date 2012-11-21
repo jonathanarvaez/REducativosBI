@@ -1,11 +1,37 @@
 ﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="33f6e2af-389d-4bad-8419-0aed254bd501" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim HoraP</ID>
   <Name>Dim HoraP</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1475" scrolltop="-2037" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6350" y="8916" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Dim_Hora" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3360" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000200d0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Hora" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,15 +47,15 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-1475</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-2037</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -39,8 +65,42 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="137">
+            <Shape Id="Id Hora" Expanded="false">
+              <Attributes>
+                <Attribute Id="Id Hora" />
+                <Attribute Id="Fecha Caducidad" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Hora" Expanded="false">
+              <Attributes>
+                <Attribute Id="Hora" />
+              </Attributes>
+              <Position x="196" y="20" />
+            </Shape>
+            <Shape Id="Parte Del Dia" Expanded="false">
+              <Attributes>
+                <Attribute Id="Parte Del Dia" />
+              </Attributes>
+              <Position x="372" y="20" />
+            </Shape>
+            <Shape Id="Am Pm" Expanded="false">
+              <Attributes>
+                <Attribute Id="Am Pm" />
+              </Attributes>
+              <Position x="548" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1a87f2e3-f7ab-4c10-bfd0-053804c295f0">
     <DataSourceViewID>DW R Educativos</DataSourceViewID>
@@ -70,14 +130,6 @@
           <AttributeID>Hora</AttributeID>
           <Name>Hora</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="30723ceb-be4d-4aa0-b887-df35f9ddb23f">
-          <AttributeID>Parte Del Dia</AttributeID>
-          <Name>Parte Del Dia</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="32e6be63-ae54-404a-bd62-d11362ff70e0">
-          <AttributeID>Am Pm</AttributeID>
-          <Name>Am Pm</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="a679de66-4879-4ce7-a4a5-c274053409b7">
           <AttributeID>Fecha Caducidad</AttributeID>
           <Name>Fecha Caducidad</Name>
@@ -98,6 +150,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="4a42a6a8-52f2-4ff1-8bb9-a2698c49a271">
+          <AttributeID>Parte Del Dia</AttributeID>
+          <Name>Parte Del Dia</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
@@ -114,6 +172,12 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d3b0817b-0ff0-46a8-a023-d8d554d3137b">
+          <AttributeID>Am Pm</AttributeID>
+          <Name>Am Pm</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
@@ -149,4 +213,27 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
   </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a6b459f2-0a11-4a17-a716-81ece7a33846">
+      <ID>Jerarquía</ID>
+      <Name>HoraPrestamoJ</Name>
+      <Levels>
+        <Level dwd:design-time-name="f377df24-4342-4e5f-8809-8392c25db09e">
+          <ID>Am Pm</ID>
+          <Name>Am Pm</Name>
+          <SourceAttributeID>Am Pm</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c529b67a-e7d0-45a1-8b00-7644838325e5">
+          <ID>Parte Del Dia</ID>
+          <Name>Parte Del Dia</Name>
+          <SourceAttributeID>Parte Del Dia</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="c76818f9-0bcc-44e3-98f6-b5eb2276b7d7">
+          <ID>Hora</ID>
+          <Name>Hora</Name>
+          <SourceAttributeID>Hora</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
 </Dimension>
