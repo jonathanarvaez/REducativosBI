@@ -1,0 +1,386 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2d2390e1-a733-426e-86eb-7a6a2458ffbe" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboMantenimiento</ID>
+  <Name>CuboMantenimiento</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="752d90f4-852f-4b91-9a66-13b3980c1050">
+      <ID>Fact Mantenimiento</ID>
+      <Name>Fact Mantenimiento</Name>
+      <DimensionID>Fact Mantenimiento</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="af199347-21fa-493d-b3c1-e634ee5f7f2e">
+          <AttributeID>Id Mantenimiento SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f22d4a56-1902-4ecc-afca-2ac0feb1bfcc">
+          <AttributeID>Id Mantenimiento BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36dc8d05-6569-46b5-9ca9-b11e98590c90">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3765859d-1bbc-4c13-9150-53592eedd0bf">
+          <AttributeID>Id Fecha Mantenimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74d7fccf-1360-4440-8ca2-9c00190984fc">
+          <AttributeID>Id Equipo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="614c9f47-fa9f-4fa2-81c2-2c291b7ad7a9">
+          <AttributeID>Id Empresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c3ce44c3-44a5-4f41-95ff-4305006b886f">
+          <AttributeID>Id Tipo Mantenimiento</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d69c1b76-34b2-40f3-8ff9-e825fc674913">
+      <ID>Dim FechaM</ID>
+      <Name>Dim FechaM</Name>
+      <DimensionID>Dim FechaM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1aacc1c4-aaa2-4306-8201-be0a88d07b5d">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b9568a4-339c-46e6-8fdc-b63660fd5eb8">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b532117-a57e-4274-85de-ffe7bf6115fd">
+          <AttributeID>Descripcion Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a48ce675-933b-4b5f-9c53-ee40994202b9">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6ae783a-c4de-49a6-9ae3-5ecab50a12a8">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f21035e-a02e-4c2e-a000-135e1acf109f">
+          <AttributeID>Numero Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b94d6dae-6916-47d6-8912-4a81eee2d3f5">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24fa834c-de1a-47f2-afdc-90a2152b7088">
+          <AttributeID>Numero Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a210c7aa-e9d7-41fa-affa-3767d0e321fb">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b037b7f-966b-4526-bef4-08fb9d510094">
+          <AttributeID>Numero Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2cff2258-2a89-4af7-90e5-ef0c0eff6236">
+          <AttributeID>Semana Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ad8bb26a-4004-4a7a-9141-699835ece56e">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3327e120-89d8-4e8c-a6b5-3ff7f2b2e754">
+          <AttributeID>Dia Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="74b2f8cc-1317-42ce-897b-c08051e746dc">
+          <AttributeID>Numero Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="126dbf51-d498-409b-b311-97e4c3f874f8">
+          <AttributeID>Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1978faeb-43b9-4e06-a00f-5ed59f44a28b">
+          <AttributeID>Semana Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5c41e1dc-7c4a-44fd-91d9-7927bfe3b5d9">
+          <AttributeID>Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfb35a1e-1014-4621-85a4-0f909f3ef137">
+          <AttributeID>Numero Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0b7500e9-ecd9-45d9-b8c6-dd2327a63cf9">
+          <AttributeID>Numero Mes Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02417c6e-7719-468b-b3d1-b37dea789c3d">
+          <AttributeID>Dia Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c23f06ac-cc6c-42ac-acc7-0d9fb1dfa205">
+          <AttributeID>Indicador Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f59e31ed-f931-477a-87ae-030ae439c8bc">
+          <AttributeID>Indicador Festivo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="29734eeb-d6cb-4387-b83f-232b05b538bb">
+          <AttributeID>Ultimo Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6a743fc0-f80d-4a77-9893-0cec6d78317b">
+          <AttributeID>Ultimo Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e4f28ca-5d3d-43c5-b1f3-96905bb629a4">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cde6e3fc-b7fd-455c-bd39-d249340b7804">
+      <ID>Dim RecursoM</ID>
+      <Name>Dim RecursoM</Name>
+      <DimensionID>Dim RecursoM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8a9133ce-da32-4787-8fb4-2ce416a52106">
+          <AttributeID>Id Equipo SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9e5dc06-9f62-4b81-b846-facfb1cb6c49">
+          <AttributeID>Id Equipo BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2debefb2-d66d-4fed-b5d3-5a7b47c350d9">
+          <AttributeID>Serie</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bb32a9df-3f7b-4541-8002-707096407273">
+          <AttributeID>Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2c27d68c-d019-45d2-acfc-7fbb6d5d0428">
+          <AttributeID>Modelo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b723d7c-088e-4ce9-9034-0675e0c458ba">
+          <AttributeID>Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f8f57b5-bec8-4bac-b5a8-3b0781a9acc3">
+          <AttributeID>Intervalo Mantenimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87893050-1622-4d51-897d-cd5c7a039cb0">
+          <AttributeID>Id Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3baee532-9b7b-4608-9bf3-d468cc091b8b">
+          <AttributeID>Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2c815e7a-16dd-4c43-8ee4-ffa093d48648">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4d5de7c4-e744-4c93-96dd-bafa9e86eb25">
+          <AttributeID>Nombre Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fcab852d-fd0d-4652-a6fc-38969465a0fc">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="71e112dc-51bd-4ab2-8f90-7b5f9f5a909a">
+      <ID>Dim EmpresaM</ID>
+      <Name>Dim EmpresaM</Name>
+      <DimensionID>Dim EmpresaM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d2d4a751-35a9-4f83-b86e-326830889047">
+          <AttributeID>Id Empresa SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3ce17f9d-d797-4d43-9418-6c975dc75b7c">
+          <AttributeID>Id Empresa BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f7bab14a-9f99-4374-ab82-83778c2de326">
+          <AttributeID>Empresa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3455aa40-1cf2-4f1c-b31e-ce2d798247a8">
+          <AttributeID>Direccion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a1a363e3-104a-44cd-8bff-0401d828df6f">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="40ce680f-ddd7-403f-b2b3-489c4748c186">
+      <ID>Dim Tipo MantenimientoM</ID>
+      <Name>Dim Tipo MantenimientoM</Name>
+      <DimensionID>Dim Tipo MantenimientoM</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="37afa73e-a3f5-4334-aafb-6ce152dca1f1">
+          <AttributeID>Id Tipo Mantenimiento SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ac1f55ef-0d01-417a-b352-f16ba6f6eaa9">
+          <AttributeID>Id Tipo Mantenimiento BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e4e37b4-538a-458f-aaea-3452fe1139e1">
+          <AttributeID>Tipo Mantenimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9a889d20-201e-4650-bd0d-095f5e44fff2">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="7efac9a0-e756-4269-af4d-9a81e846c37b">
+      <ID>Fact Mantenimiento</ID>
+      <Name>Fact Mantenimiento</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="e2311983-b3ea-4969-8d42-66c6414b67c5">
+          <ID>Costo Mantenimiento</ID>
+          <Name>Costo Mantenimiento</Name>
+          <Source dwd:design-time-name="7a29265d-a60e-4b00-b565-3cd094639324">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="33bfdf0d-01eb-4e85-82c2-a11373018d85">
+              <TableID>dbo_Fact_Mantenimiento</TableID>
+              <ColumnID>CostoMantenimiento</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0f0f7eef-ebaf-4e59-a6bc-4fc5726c445e">
+          <ID>Cantidad Mantenimientos</ID>
+          <Name>Cantidad Mantenimientos</Name>
+          <Source dwd:design-time-name="e200f323-5dcc-4a36-81e4-39ee854616f6">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d7f76a3f-8238-4410-a34b-5301afd3c2d8">
+              <TableID>dbo_Fact_Mantenimiento</TableID>
+              <ColumnID>CantidadMantenimientos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5876874f-6a7a-442e-9a41-5709a4acace5">
+          <ID>Recuento Fact Mantenimiento</ID>
+          <Name>Recuento Fact Mantenimiento</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="f8b75de2-4757-42d5-893a-f815c34d3dc9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="537e5ab0-e314-4910-8fa1-5717ecbfc9f3">
+              <TableID>dbo_Fact_Mantenimiento</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="048d92c9-b49d-4f1b-ac44-949ce72935b8">
+          <CubeDimensionID>Fact Mantenimiento</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="529c1c81-f643-4ea6-8f0c-4aed4e96a915">
+              <AttributeID>Id Mantenimiento SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3b376da4-9b4b-4d2a-9082-c82761eca421">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="326d2d37-d8c8-4cba-b5d4-ffbaa954b8f0">
+                    <TableID>dbo_Fact_Mantenimiento</TableID>
+                    <ColumnID>IdMantenimiento_SK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c9a3e79f-7c5a-4f1f-80d9-1a0b7bf7506f">
+          <CubeDimensionID>Dim FechaM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="0a7f7ee1-ab91-47c3-b95a-555a9c28a4b1">
+              <AttributeID>Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0b2f1978-4d81-4f8c-9cd6-477a0ba41061">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="afb42995-b696-472d-ae3d-9c971e4faf38">
+                    <TableID>dbo_Fact_Mantenimiento</TableID>
+                    <ColumnID>IdFechaMantenimiento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f1ec1053-e6f5-4539-821d-9df77c09897f">
+          <CubeDimensionID>Dim RecursoM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="7e1013dc-b258-4024-b133-18f705ca322f">
+              <AttributeID>Id Equipo SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9f8c777b-fc1c-49a5-b40f-86981a366f48">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b818f1fe-b096-46bd-be3b-09d2de22af97">
+                    <TableID>dbo_Fact_Mantenimiento</TableID>
+                    <ColumnID>IdEquipo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7220dd75-8d77-4b5d-9e97-ce46da9b62de">
+          <CubeDimensionID>Dim EmpresaM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4db82443-94e7-4ad5-8e15-1e03361be1a6">
+              <AttributeID>Id Empresa SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d8c695ca-513f-44bb-a14a-639dc75729a4">
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e49722e7-3373-41f1-a6ae-ba9f0336867c">
+                    <TableID>dbo_Fact_Mantenimiento</TableID>
+                    <ColumnID>IdEmpresa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d6cde071-f76d-4b82-9ed4-221b8a72b2f5">
+          <CubeDimensionID>Dim Tipo MantenimientoM</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c0b6722e-1ce9-469b-a2f9-22c5f5ad6ccb">
+              <AttributeID>Id Tipo Mantenimiento SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="891aca7a-246c-4d10-a82c-ceb100eb6253">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29228ff0-2cba-4e67-bc6d-c4bdeb10ce40">
+                    <TableID>dbo_Fact_Mantenimiento</TableID>
+                    <ColumnID>IdTipoMantenimiento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="3a8029be-2fa7-4727-81fa-949b0ebd8022">
+    <DataSourceViewID>Vista Mantenimiento</DataSourceViewID>
+  </Source>
+</Cube>

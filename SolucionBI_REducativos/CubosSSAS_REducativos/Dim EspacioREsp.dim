@@ -1,0 +1,229 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="143731d9-9099-4791-a466-c281a88379bb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim EspacioREsp</ID>
+  <Name>Dim EspacioREsp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a266f884-e482-43f2-a750-33b21f9c9b1a">
+    <DataSourceViewID>Vista Reserva Espacios</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="fecb7f43-9e40-4a90-9edf-0bddaa93e7a9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="5825c14d-2708-49a8-9c6d-20de57e305ce">
+      <ID>Id Espacio SK</ID>
+      <Name>Id Espacio SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="90a2179d-0912-4bbd-bfa3-09648876d91a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="519c9b13-4168-4231-bca1-c0a0c16656f3">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>IdEspacio_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ca477d73-9ec2-453b-964a-09310258e94e">
+          <AttributeID>Id Espacio BK</AttributeID>
+          <Name>Id Espacio BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="15fcb91a-0135-4dbd-8503-931747f27d5f">
+          <AttributeID>Espacio</AttributeID>
+          <Name>Espacio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cdda66e0-40af-4393-8c32-435852198ad9">
+          <AttributeID>Bloque</AttributeID>
+          <Name>Bloque</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="74711f23-4d21-4b28-81ec-6701bc35dc9a">
+          <AttributeID>Sede</AttributeID>
+          <Name>Sede</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="94777289-45bf-425d-9d8d-7f437e52a5c3">
+          <AttributeID>Tipo Espacio</AttributeID>
+          <Name>Tipo Espacio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b075849e-d060-4a85-97a4-6d12da839609">
+          <AttributeID>Aire</AttributeID>
+          <Name>Aire</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4feb52b8-48bd-4946-9f35-774c073fe68b">
+          <AttributeID>Capacidad Espacio</AttributeID>
+          <Name>Capacidad Espacio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ae49ab7c-e0ee-4b24-84d1-ab3e7b1b0f53">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1ced6891-9530-4d1c-9cfd-02f4bca8d8cb">
+      <ID>Id Espacio BK</ID>
+      <Name>Id Espacio BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e804de9a-60d4-4aa2-84f5-852f40e829de">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="364cde3d-2b3e-4ba4-9cf1-9551271ff51f">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>IdEspacio_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1199bfe6-cadf-4221-8672-0786daeb3b0f">
+      <ID>Espacio</ID>
+      <Name>Espacio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a53b0046-a844-477c-9ee9-7deb8558a96f">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ebc2f2d-5660-4dd9-858d-58f3e3335228">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>Espacio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7189f2e3-2e02-4bf6-bf41-56e9a2695e1d">
+      <ID>Bloque</ID>
+      <Name>Bloque</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aef2b1a7-2e83-40ac-aec2-356b14317017">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c848c275-b170-49ce-9faf-ead66c9a883e">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>Bloque</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="612aa92f-0573-443d-8775-689027127d7c">
+      <ID>Sede</ID>
+      <Name>Sede</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="792e6e16-3602-47a9-82a0-354770a2c872">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ff81deee-be41-4745-b9fc-de4598977920">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>Sede</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aecdd390-9543-4edc-a270-ab549fce6b29">
+      <ID>Tipo Espacio</ID>
+      <Name>Tipo Espacio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="054347d6-8490-4787-aac2-dc343dc27beb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea1b50fc-bb29-4cbc-9020-1cb7b1fa0cb0">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>TipoEspacio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="be8a77a4-4394-46d3-a165-263cd330f355">
+      <ID>Aire</ID>
+      <Name>Aire</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="30f8abfb-44f0-4481-9916-edcfd97d50c2">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7efdc8b6-a8e3-4f23-bf24-5d1417453776">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>Aire</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f3c1a4ef-0368-4390-a6a1-0705b375b575">
+      <ID>Capacidad Espacio</ID>
+      <Name>Capacidad Espacio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="57bc91c0-defd-44c4-894a-21c9bff3657c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="00ade8fe-52d4-4b9d-a115-a99149d5cda7">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>CapacidadEspacio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="171b8d5e-f703-41c3-b664-abc5813b592e">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ce16c859-e787-4a88-bd89-1680cdc0e89c">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="949e7421-0ad3-4b33-a197-b71656d089a3">
+            <TableID>dbo_Dim_Espacio</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

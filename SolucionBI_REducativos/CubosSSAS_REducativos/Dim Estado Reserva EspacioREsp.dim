@@ -1,0 +1,132 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="df17d19d-6ad2-4d4c-97f7-030b911ec6cc" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Estado Reserva EspacioREsp</ID>
+  <Name>Dim Estado Reserva EspacioREsp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e00fc11e-a3e0-4a14-ab89-f28167d8b78c">
+    <DataSourceViewID>Vista Reserva Espacios</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="3ed800e4-82a3-4028-9c6b-2a0b83510089">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="3ae87872-a5e7-4da2-b0d8-f46ddabdf3f8">
+      <ID>Id Estado SK</ID>
+      <Name>Id Estado SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f3c212dd-7268-4057-bef8-b84388835191">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="23ac8fea-2eea-46f8-b91b-ca1ae32f3463">
+            <TableID>dbo_Dim_EstadoReservaEspacio</TableID>
+            <ColumnID>IdEstado_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="82ffa450-9cc0-41c2-9349-d0fdd090710f">
+          <AttributeID>Id Estado BK</AttributeID>
+          <Name>Id Estado BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1eb2e622-bbbe-4fe7-b28a-da5799fab542">
+          <AttributeID>Nombre Estado</AttributeID>
+          <Name>Nombre Estado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bb697201-7638-44ce-af87-b934d6027616">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cad868bf-8b37-4b8a-a10e-7ea6cc89fd66">
+      <ID>Id Estado BK</ID>
+      <Name>Id Estado BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1b257ea8-eab2-47be-b516-665c77cce739">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ee9d4091-b6d4-4287-ab2a-c33d4bb14c01">
+            <TableID>dbo_Dim_EstadoReservaEspacio</TableID>
+            <ColumnID>IdEstado_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c000f4cb-7482-4177-8df6-8ff1eeb69527">
+      <ID>Nombre Estado</ID>
+      <Name>Nombre Estado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a4545e06-f4cd-4ca8-a641-5e632b23e02c">
+          <DataType>WChar</DataType>
+          <DataSize>25</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2472f05f-3f06-46e3-b91d-733a17a71263">
+            <TableID>dbo_Dim_EstadoReservaEspacio</TableID>
+            <ColumnID>NombreEstado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa7a78cb-2565-4f9c-9889-4f2c23fa76a8">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f7bd2ad5-1714-492d-91a3-be573a8e2952">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a125255d-31c9-4ddf-9edf-c73733713e52">
+            <TableID>dbo_Dim_EstadoReservaEspacio</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

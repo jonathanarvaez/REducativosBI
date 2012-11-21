@@ -1,0 +1,278 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8e462880-bb1e-47fe-b4bf-60dea69b59e9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact PrestamoP</ID>
+  <Name>Fact Prestamo</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1528" scrolltop="-2858" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7329" y="10716" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Fact_Prestamo" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4233" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800008910000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Fact_Prestamo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1528</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2858</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a2904cfb-f7ea-4271-a62f-cd380a72cb3b">
+    <DataSourceViewID>DW R Educativos</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="6cd333a5-55f9-454e-96cd-4a91f5fee829">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8c6832e0-1ed8-44c9-803d-c190d0524c32">
+      <ID>Id Prestamo SK</ID>
+      <Name>Id Prestamo SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cdcd7112-f218-480b-b521-e8e7fa209f74">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5fc42048-ec21-4806-b829-df1157ac253d">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdPrestamo_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="9e91c740-c2ee-42e9-8255-d9cc7a494b72">
+          <AttributeID>Id Prestamo BK</AttributeID>
+          <Name>Id Prestamo BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="755ec7f9-ed72-4bd8-ae16-4b5b10097bb4">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1ceb85d1-d9c1-4d5d-9d61-5f8b050881b5">
+          <AttributeID>Id Espacio</AttributeID>
+          <Name>Id Espacio</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="84eab018-5f94-4b39-a417-5ab0cf1f9463">
+          <AttributeID>Id Equipo</AttributeID>
+          <Name>Id Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0a6f5330-ddd2-4461-87b9-d5c1aaad7398">
+          <AttributeID>Id Fecha Prestamo</AttributeID>
+          <Name>Id Fecha Prestamo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f4462be-67a9-4538-8ce9-ee02203c7bb4">
+          <AttributeID>Id Fecha Solicitud</AttributeID>
+          <Name>Id Fecha Solicitud</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="24a93669-e804-4c30-8eb5-c4718d484735">
+          <AttributeID>Id Hora Inicial</AttributeID>
+          <Name>Id Hora Inicial</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a3031041-69a1-4ffc-a1c3-568586ccf040">
+          <AttributeID>Id Hora Final</AttributeID>
+          <Name>Id Hora Final</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3c3bbed6-3e63-4c61-8937-4020c6a0013c">
+          <AttributeID>Id Reserva</AttributeID>
+          <Name>Id Reserva</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6231b7b7-3695-4fc9-bb0c-d739fddbdef2">
+      <ID>Id Prestamo BK</ID>
+      <Name>Id Prestamo BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c9666d6f-b609-49bc-b05f-c5d5e671bdd8">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="76c07852-56ae-4735-8e62-903e454df2eb">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdPrestamo_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0698a129-4c7e-4087-aec9-905010f47475">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f3dee8ae-cade-47aa-b02d-90b3b018319d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fdc4530e-88e2-445d-90b6-4c2bc2ef48c4">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12e20a1b-f92e-46dc-82ff-c9291c3fb18b">
+      <ID>Id Espacio</ID>
+      <Name>Id Espacio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="abb7970b-d817-4b07-bf38-080e8d468dfb">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37900dde-f19a-43de-a29f-8f3cfdd1e2da">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdEspacio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a172e3e3-6d94-4d64-9b82-5ed2f9b05b22">
+      <ID>Id Equipo</ID>
+      <Name>Id Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ed93569-f522-4d48-836d-3cb1290b9ad6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4653d613-52d3-4fae-9da0-ecab1fd37af2">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdEquipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="87515af6-c111-41d4-bb49-84208666fc27">
+      <ID>Id Fecha Prestamo</ID>
+      <Name>Id Fecha Prestamo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5c851c0d-d351-42b9-8610-96c811c44720">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0d495c5f-22ca-4fe5-b3e9-d87dd00ffc97">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdFechaPrestamo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2cdd2041-1cb9-40be-824e-e912d21e40f0">
+      <ID>Id Fecha Solicitud</ID>
+      <Name>Id Fecha Solicitud</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88b14f54-a542-4fe9-84d6-da194599ca92">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa597ed0-65a7-4919-b31f-44b0d190c744">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdFechaSolicitud</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2ec80118-5bbf-4f17-9e72-ef99a6942202">
+      <ID>Id Hora Inicial</ID>
+      <Name>Id Hora Inicial</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="64a13167-c50a-4aa7-adc7-829b6ce3550d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4bfa34cf-146a-457a-af97-2604a26b9c7c">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdHoraInicial</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ac986231-22d6-46e6-b642-2c2d0dba9c5e">
+      <ID>Id Hora Final</ID>
+      <Name>Id Hora Final</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b7879a35-91da-428c-9f34-3efcfbf3f404">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05152d32-c44b-4824-88ef-8312b1e68786">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdHoraFinal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b1950efb-c99b-4822-8b08-3861c2d7d276">
+      <ID>Id Reserva</ID>
+      <Name>Id Reserva</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e69cb955-3621-47b3-a1cb-404a7eec2b5e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3e23de5-d87f-4304-81eb-d89e34328d9e">
+            <TableID>dbo_Fact_Prestamo</TableID>
+            <ColumnID>IdReserva</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

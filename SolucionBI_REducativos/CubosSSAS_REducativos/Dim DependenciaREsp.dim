@@ -1,0 +1,132 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d6d471a4-86db-4734-8757-6a1fd17c52be" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim DependenciaREsp</ID>
+  <Name>Dim DependenciaREsp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c2ea809e-bfd0-4382-908d-326101399958">
+    <DataSourceViewID>Vista Reserva Espacios</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="83a1be2d-a481-437e-835a-93be9c4742e6">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="d9317017-81ff-4b47-b256-6b68d467fec1">
+      <ID>Id Dependencia SK</ID>
+      <Name>Id Dependencia SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d4889f3-e4bd-4d57-8242-3fac23799ea5">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="037cfa3a-cefc-42cd-914b-9c4980831d97">
+            <TableID>dbo_Dim_Dependencia</TableID>
+            <ColumnID>IdDependencia_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="d9352caf-bffb-4bb7-9af6-a6b6441b11f9">
+          <AttributeID>Id Dependencia BK</AttributeID>
+          <Name>Id Dependencia BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3965fc5a-0c2a-4835-84ff-13fba490d5ef">
+          <AttributeID>Nombre Dependencia</AttributeID>
+          <Name>Nombre Dependencia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="293aaaca-2448-49b2-90af-1d353dd3a28b">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d2deb611-79ce-4e8d-80ea-a1b9a0fc6b70">
+      <ID>Id Dependencia BK</ID>
+      <Name>Id Dependencia BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="780c1fdf-e05b-4174-86ca-6fe9d81ae43a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d267f454-cdc6-45bd-8eca-a64d2cf12be0">
+            <TableID>dbo_Dim_Dependencia</TableID>
+            <ColumnID>IdDependencia_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ce458136-37ad-49cc-a864-64a81423612a">
+      <ID>Nombre Dependencia</ID>
+      <Name>Nombre Dependencia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4740771-091c-4113-afb6-fbc41c5ec5aa">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="316ea159-6ed1-4f5f-8344-ff46f13e83b3">
+            <TableID>dbo_Dim_Dependencia</TableID>
+            <ColumnID>NombreDependencia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="dda21bb4-5b86-4ee0-aec8-6a44d6b66af4">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8622c18c-4ec5-400c-9113-f9c28b735d36">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64c4042f-14be-443b-9b25-28c674ffde1d">
+            <TableID>dbo_Dim_Dependencia</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

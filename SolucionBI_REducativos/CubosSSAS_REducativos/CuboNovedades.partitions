@@ -1,0 +1,25 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f28a697f-78a6-4c97-b64e-966bd27315c1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboNovedades</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Novedades</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="4cf959c4-eb87-43df-aad5-7c65f2743464">
+          <ID>Fact Novedades</ID>
+          <Name>Fact Novedades</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a98a7dae-ff2e-4857-bf24-ebf3a94cda84">
+            <DataSourceViewID>Vista Novedades</DataSourceViewID>
+            <TableID>dbo_Fact_Novedades</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

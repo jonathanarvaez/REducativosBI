@@ -1,0 +1,169 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cb2e179c-0177-4b77-974d-8fcacaa26412" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact NovedadesN</ID>
+  <Name>Fact NovedadesN</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1cdc910e-5d18-4716-92d5-53b25853c015">
+    <DataSourceViewID>Vista Novedades</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="88b86f9e-7087-4e71-a6ae-72bf0562ff7a">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="c64df416-7292-41a6-a93c-b24ac59008fa">
+      <ID>Id Novedades SK</ID>
+      <Name>Id Novedades SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="25e2c6f3-07a0-40d4-8380-a2c161d9b983">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="baff1411-9b61-4cd4-b4d4-658408958169">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>IdNovedades_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="fad05ee8-9861-429b-9850-41beb2d044f4">
+          <AttributeID>Id Novedades BK</AttributeID>
+          <Name>Id Novedades BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="88a99e9d-9355-4688-9573-9e500a996cb9">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a579f3b9-40ad-4d19-b409-54dbf50368b3">
+          <AttributeID>Id Equipo</AttributeID>
+          <Name>Id Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="938d1ebd-2f1e-4e59-bfc4-f67cb7604be4">
+          <AttributeID>Id Fecha Novedad</AttributeID>
+          <Name>Id Fecha Novedad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="15a1b938-427b-4e8f-a8c4-bebf409f6d5b">
+          <AttributeID>Id Tipos Novedad</AttributeID>
+          <Name>Id Tipos Novedad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0807cbdd-369d-4a24-8a8d-18f5cf943194">
+      <ID>Id Novedades BK</ID>
+      <Name>Id Novedades BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2b2811b7-9270-4082-ad1e-4fb75f24f9c1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="88091103-46f3-45ef-adfa-fa68ee158a44">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>IdNovedades_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ebb45ed-a3da-48c3-b414-d1e23d9840c8">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e1be930b-c061-4e26-9f80-b39366ca1cd7">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2950991d-5d4a-4376-9b8f-2b61fe9d2a2e">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0690cd75-6e88-499e-a560-09dc46ee2c3b">
+      <ID>Id Equipo</ID>
+      <Name>Id Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1156531d-da94-4507-a2af-90cbe8dd972f">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a3853380-dd14-464d-bcab-eebd16a2b6ee">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>IdEquipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8385113d-638e-4650-bc6b-9c3286365f94">
+      <ID>Id Fecha Novedad</ID>
+      <Name>Id Fecha Novedad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="623e000f-90db-4523-b1b2-10d38ee2ace3">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="daffe3c4-e40a-4b81-a1a2-faf8de7caf06">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>IdFechaNovedad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e603aa9e-b026-4657-9763-f15f9df22ba1">
+      <ID>Id Tipos Novedad</ID>
+      <Name>Id Tipos Novedad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e6f812ed-f13e-41e0-b815-dc870fd21170">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="14d4acf9-a9b9-4322-b8b5-d58ca1786bd9">
+            <TableID>dbo_Fact_Novedades</TableID>
+            <ColumnID>IdTiposNovedad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

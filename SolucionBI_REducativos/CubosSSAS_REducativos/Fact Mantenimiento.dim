@@ -1,0 +1,188 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1f4b1c27-a1b8-46a6-ad4c-a20e33c2c6d0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Mantenimiento</ID>
+  <Name>Fact Mantenimiento</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="48f5cbe5-8a60-4c36-a795-b4159271ce1e">
+    <DataSourceViewID>Vista Mantenimiento</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="1fd174ed-8668-4a95-a97d-f866a3e4b98e">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="8eef6dad-e63f-463c-8811-c236116c86ad">
+      <ID>Id Mantenimiento SK</ID>
+      <Name>Id Mantenimiento SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b0ea86e8-1bc5-48b7-98cd-fe0298737ce9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68bbab7b-8e22-497b-ae44-975d6e176f2a">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdMantenimiento_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8f184cb2-b90b-4462-b905-77d767ccb172">
+          <AttributeID>Id Mantenimiento BK</AttributeID>
+          <Name>Id Mantenimiento BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="72520121-92d3-4676-b008-b2274fca2fb2">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ff458bd0-eded-4e29-8e28-7851795045d5">
+          <AttributeID>Id Fecha Mantenimiento</AttributeID>
+          <Name>Id Fecha Mantenimiento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8bbf7ac1-4e7b-4f08-9df8-ca6cb7933ca3">
+          <AttributeID>Id Equipo</AttributeID>
+          <Name>Id Equipo</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed08d868-2867-476e-91a7-8de84104e961">
+          <AttributeID>Id Empresa</AttributeID>
+          <Name>Id Empresa</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9c25ff97-4150-48f9-8036-c3207fe7a10c">
+          <AttributeID>Id Tipo Mantenimiento</AttributeID>
+          <Name>Id Tipo Mantenimiento</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="53d4092e-ea71-433e-a2cc-3df75c30f9fa">
+      <ID>Id Mantenimiento BK</ID>
+      <Name>Id Mantenimiento BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2394ad20-bc25-4154-a498-31dbb16911c7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5606772a-465e-41cf-8bad-8eb0a871c9ab">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdMantenimiento_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4843a8c1-eb69-43ca-9478-5bfa6065f324">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68febd53-e258-40e0-b50a-23d4d11b5d90">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2ecac841-77a8-4149-9b06-3d1a653b58ef">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="33f9dc8d-9649-4180-8777-4463c343fa33">
+      <ID>Id Fecha Mantenimiento</ID>
+      <Name>Id Fecha Mantenimiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81c8a27a-c8fc-4084-bd00-90d13751c759">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b2ba6a58-6fec-4606-b320-c57909d5d22e">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdFechaMantenimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c5526a07-b737-4cc1-b874-470a60323439">
+      <ID>Id Equipo</ID>
+      <Name>Id Equipo</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0a2bcfdc-df02-4850-b130-982dd0397cdc">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dab11420-856a-467b-8095-b629d209f20e">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdEquipo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b747a035-b6cf-4640-b896-bf50c9fbe223">
+      <ID>Id Empresa</ID>
+      <Name>Id Empresa</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbc9719d-673d-46d3-9b68-9feed6cb1271">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8232862b-b9f6-455d-8c8a-ea1ff23a9303">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdEmpresa</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="99f93c89-af08-4fe5-8284-00182b669eb3">
+      <ID>Id Tipo Mantenimiento</ID>
+      <Name>Id Tipo Mantenimiento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3b51c8c7-8207-428a-add8-777f14b8e51b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a134581-71f8-4fbe-8d04-d782c6328b76">
+            <TableID>dbo_Fact_Mantenimiento</TableID>
+            <ColumnID>IdTipoMantenimiento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

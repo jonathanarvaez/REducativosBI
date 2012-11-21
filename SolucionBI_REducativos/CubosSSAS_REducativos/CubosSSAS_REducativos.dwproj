@@ -8,154 +8,184 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo Mantenimiento.cube</Name>
-      <FullPath>Cubo Mantenimiento.cube</FullPath>
+      <Name>CuboReserva.cube</Name>
+      <FullPath>CuboReserva.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo Mantenimiento.partitions</Name>
-          <FullPath>Cubo Mantenimiento.partitions</FullPath>
+          <Name>CuboReserva.partitions</Name>
+          <FullPath>CuboReserva.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cubo Novedades.cube</Name>
-      <FullPath>Cubo Novedades.cube</FullPath>
+      <Name>CuboPrestamo.cube</Name>
+      <FullPath>CuboPrestamo.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo Novedades.partitions</Name>
-          <FullPath>Cubo Novedades.partitions</FullPath>
+          <Name>CuboPrestamo.partitions</Name>
+          <FullPath>CuboPrestamo.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cubo Reserva.cube</Name>
-      <FullPath>Cubo Reserva.cube</FullPath>
+      <Name>CuboMantenimiento.cube</Name>
+      <FullPath>CuboMantenimiento.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo Reserva.partitions</Name>
-          <FullPath>Cubo Reserva.partitions</FullPath>
+          <Name>CuboMantenimiento.partitions</Name>
+          <FullPath>CuboMantenimiento.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cubo Prestamo.cube</Name>
-      <FullPath>Cubo Prestamo.cube</FullPath>
+      <Name>CuboNovedades.cube</Name>
+      <FullPath>CuboNovedades.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo Prestamo.partitions</Name>
-          <FullPath>Cubo Prestamo.partitions</FullPath>
+          <Name>CuboNovedades.partitions</Name>
+          <FullPath>CuboNovedades.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Cubo AsignacionClases.cube</Name>
-      <FullPath>Cubo AsignacionClases.cube</FullPath>
+      <Name>CuboReservaEspacios.cube</Name>
+      <FullPath>CuboReservaEspacios.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo AsignacionClases.partitions</Name>
-          <FullPath>Cubo AsignacionClases.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>AReservas.cube</Name>
-      <FullPath>AReservas.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>AReservas.partitions</Name>
-          <FullPath>AReservas.partitions</FullPath>
+          <Name>CuboReservaEspacios.partitions</Name>
+          <FullPath>CuboReservaEspacios.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Dim Tipo Mantenimiento.dim</Name>
-      <FullPath>Dim Tipo Mantenimiento.dim</FullPath>
+      <Name>Dim Tipo Uso ReservaR.dim</Name>
+      <FullPath>Dim Tipo Uso ReservaR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Empresa.dim</Name>
-      <FullPath>Dim Empresa.dim</FullPath>
+      <Name>Dim HoraR.dim</Name>
+      <FullPath>Dim HoraR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Recurso.dim</Name>
-      <FullPath>Dim Recurso.dim</FullPath>
+      <Name>Dim DependenciaR.dim</Name>
+      <FullPath>Dim DependenciaR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Fecha.dim</Name>
-      <FullPath>Dim Fecha.dim</FullPath>
+      <Name>Dim FechaR.dim</Name>
+      <FullPath>Dim FechaR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Tipos Novedad.dim</Name>
-      <FullPath>Dim Tipos Novedad.dim</FullPath>
+      <Name>Dim EspacioR.dim</Name>
+      <FullPath>Dim EspacioR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Hora.dim</Name>
-      <FullPath>Dim Hora.dim</FullPath>
+      <Name>Dim Estado ReservaR.dim</Name>
+      <FullPath>Dim Estado ReservaR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Dependencia.dim</Name>
-      <FullPath>Dim Dependencia.dim</FullPath>
+      <Name>Dim UsuarioR.dim</Name>
+      <FullPath>Dim UsuarioR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Tipo Uso Reserva.dim</Name>
-      <FullPath>Dim Tipo Uso Reserva.dim</FullPath>
+      <Name>Dim CategoriaR.dim</Name>
+      <FullPath>Dim CategoriaR.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Usuario.dim</Name>
-      <FullPath>Dim Usuario.dim</FullPath>
+      <Name>Fact Reserva.dim</Name>
+      <FullPath>Fact Reserva.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Estado Reserva.dim</Name>
-      <FullPath>Dim Estado Reserva.dim</FullPath>
+      <Name>Dim EspacioP.dim</Name>
+      <FullPath>Dim EspacioP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Reserva.dim</Name>
-      <FullPath>Dim Reserva.dim</FullPath>
+      <Name>Dim FechaP.dim</Name>
+      <FullPath>Dim FechaP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Grupo.dim</Name>
-      <FullPath>Dim Grupo.dim</FullPath>
+      <Name>Dim RecursoP.dim</Name>
+      <FullPath>Dim RecursoP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Espacio.dim</Name>
-      <FullPath>Dim Espacio.dim</FullPath>
+      <Name>Dim HoraP.dim</Name>
+      <FullPath>Dim HoraP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Dependencia.dim</Name>
-      <FullPath>Dim_Dependencia.dim</FullPath>
+      <Name>Dim ReservaP.dim</Name>
+      <FullPath>Dim ReservaP.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Espacio.dim</Name>
-      <FullPath>Dim_Espacio.dim</FullPath>
+      <Name>Fact Prestamo.dim</Name>
+      <FullPath>Fact Prestamo.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_EstadoReserva.dim</Name>
-      <FullPath>Dim_EstadoReserva.dim</FullPath>
+      <Name>Dim Tipo MantenimientoM.dim</Name>
+      <FullPath>Dim Tipo MantenimientoM.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Fecha.dim</Name>
-      <FullPath>Dim_Fecha.dim</FullPath>
+      <Name>Dim EmpresaM.dim</Name>
+      <FullPath>Dim EmpresaM.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Hora.dim</Name>
-      <FullPath>Dim_Hora.dim</FullPath>
+      <Name>Dim RecursoM.dim</Name>
+      <FullPath>Dim RecursoM.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_TipoUsoReserva.dim</Name>
-      <FullPath>Dim_TipoUsoReserva.dim</FullPath>
+      <Name>Dim FechaM.dim</Name>
+      <FullPath>Dim FechaM.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Usuario.dim</Name>
-      <FullPath>Dim_Usuario.dim</FullPath>
+      <Name>Fact Mantenimiento.dim</Name>
+      <FullPath>Fact Mantenimiento.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim_Categoria.dim</Name>
-      <FullPath>Dim_Categoria.dim</FullPath>
+      <Name>Dim Tipos NovedadN.dim</Name>
+      <FullPath>Dim Tipos NovedadN.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Fact_Reserva.dim</Name>
-      <FullPath>Fact_Reserva.dim</FullPath>
+      <Name>Dim RecursoN.dim</Name>
+      <FullPath>Dim RecursoN.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim FechaN.dim</Name>
+      <FullPath>Dim FechaN.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact NovedadesN.dim</Name>
+      <FullPath>Fact NovedadesN.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim UsuarioREsp.dim</Name>
+      <FullPath>Dim UsuarioREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim HoraREsp.dim</Name>
+      <FullPath>Dim HoraREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim FechaREsp.dim</Name>
+      <FullPath>Dim FechaREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim EventoREsp.dim</Name>
+      <FullPath>Dim EventoREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim EspacioREsp.dim</Name>
+      <FullPath>Dim EspacioREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Estado Reserva EspacioREsp.dim</Name>
+      <FullPath>Dim Estado Reserva EspacioREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim DependenciaREsp.dim</Name>
+      <FullPath>Dim DependenciaREsp.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Fact Reserva EspaciosREsp.dim</Name>
+      <FullPath>Fact Reserva EspaciosREsp.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
@@ -165,10 +195,6 @@
     </ProjectItem>
   </DataSources>
   <DataSourceViews>
-    <ProjectItem>
-      <Name>AReservas.dsv</Name>
-      <FullPath>AReservas.dsv</FullPath>
-    </ProjectItem>
     <ProjectItem>
       <Name>Vista AsignacionClases.dsv</Name>
       <FullPath>Vista AsignacionClases.dsv</FullPath>
@@ -188,6 +214,10 @@
     <ProjectItem>
       <Name>Vista Reserva.dsv</Name>
       <FullPath>Vista Reserva.dsv</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Vista Reserva Espacios.dsv</Name>
+      <FullPath>Vista Reserva Espacios.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

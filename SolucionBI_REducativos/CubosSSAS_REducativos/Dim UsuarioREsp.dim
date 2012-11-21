@@ -1,0 +1,190 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1c228b17-6cc4-4b3b-b8ea-5653479374ea" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim UsuarioREsp</ID>
+  <Name>Dim UsuarioREsp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9bf1fa7e-53e1-4a8e-a8f1-5032bc1f7b83">
+    <DataSourceViewID>Vista Reserva Espacios</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="143b6e73-fa0e-4da3-a483-f3bef56453a0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="e9330479-18d1-4f74-854d-2b5095a7bf8d">
+      <ID>User Id SK</ID>
+      <Name>User Id SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e8a063bd-74be-4ed5-b225-edfa3c7dc5e0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="193538bd-a252-486f-b61b-74fc6cfb8008">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>UserId_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="c56e45a8-d079-4fb8-9d56-78373efdd2a6">
+          <AttributeID>User Id BK</AttributeID>
+          <Name>User Id BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="9e611959-fba7-4833-84d0-129126cfe796">
+          <AttributeID>User Name</AttributeID>
+          <Name>User Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="eac4a814-e2fe-4150-b56d-8bf27e37673e">
+          <AttributeID>Cedula</AttributeID>
+          <Name>Cedula</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="45603e67-6d75-4f39-ab71-e72463c8c592">
+          <AttributeID>Id Tipo Vinculacion</AttributeID>
+          <Name>Id Tipo Vinculacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="30bfd3f1-4c15-4b21-8971-e0ca28b69e6d">
+          <AttributeID>Tipo Vinculacion</AttributeID>
+          <Name>Tipo Vinculacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d75efaaf-b703-4bd1-93b0-db5192c47e78">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="740ee59b-8f11-49d4-840c-b1b584fd58b1">
+      <ID>User Id BK</ID>
+      <Name>User Id BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="68bece86-3b94-48b3-a095-7366122e02dd">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c808c0b9-7a11-4b8b-a2e1-43a2bd8bd0a7">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>UserId_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="21f1901e-1e01-4499-9838-d38c73d2b389">
+      <ID>User Name</ID>
+      <Name>User Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="60804ef8-b2c0-4985-bd2e-072508eb675d">
+          <DataType>WChar</DataType>
+          <DataSize>256</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="70d4f3ad-9608-4332-afdb-936935af72ad">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>UserName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="17d5b0e2-2fa4-411e-81cd-1c664d269e7c">
+      <ID>Cedula</ID>
+      <Name>Cedula</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="88d94d17-9191-4974-be69-9b35cc07945c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75016dab-103f-476a-9e2e-27bbe6186da5">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>Cedula</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5cc3ffad-78b0-4e76-b039-b3a15a7c8c24">
+      <ID>Id Tipo Vinculacion</ID>
+      <Name>Id Tipo Vinculacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2437ae9c-3339-4154-b39b-43eb271bfa47">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2660a47-b3ce-4b3a-b17d-aeb66eb4d21e">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>IdTipoVinculacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="104e1af3-b504-41f7-873c-6dfe669d92e2">
+      <ID>Tipo Vinculacion</ID>
+      <Name>Tipo Vinculacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81ccf444-1083-4f23-a3c2-4cc53da4defb">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ced8996f-d0e4-412c-9aba-4b6048b3c33a">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>TipoVinculacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9a748505-f129-4581-9c95-68665de7783a">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f5846b27-74b9-47a5-a3be-0906f3019eab">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1d11fd80-dc9a-4678-88e6-6760c84fc09b">
+            <TableID>dbo_Dim_Usuario</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

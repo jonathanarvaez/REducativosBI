@@ -1,0 +1,313 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e5dc2dea-1efe-453f-af31-17cae2b01c77" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Fact Reserva EspaciosREsp</ID>
+  <Name>Fact Reserva EspaciosREsp</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c43ab64a-f47d-483e-8e87-9213f3ee516f">
+    <DataSourceViewID>Vista Reserva Espacios</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="7775a1fc-5319-4607-b269-5f6b8dba3d00">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="abdaf7bc-608f-4513-82ea-1e2747c2f5fc">
+      <ID>Id Reserva Espacio SK</ID>
+      <Name>Id Reserva Espacio SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9816d6c-ced3-42d7-865e-1dc981379589">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="15c82671-d626-4b18-8038-cd9f6876c310">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdReservaEspacio_SK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="185c92d2-4983-4cfe-9785-1b579f1e4ef4">
+          <AttributeID>Id Reserva Espacio BK</AttributeID>
+          <Name>Id Reserva Espacio BK</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ba8b5c8c-427e-4fe4-87ef-fb4ba644b3e1">
+          <AttributeID>Fecha Caducidad</AttributeID>
+          <Name>Fecha Caducidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="219f19ec-8258-4b3e-870d-4b530e730bf0">
+          <AttributeID>Id Fecha Registro</AttributeID>
+          <Name>Id Fecha Registro</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b18d8aa0-0a90-4570-9e7e-edb6dccbb75e">
+          <AttributeID>Id Fecha Reserva</AttributeID>
+          <Name>Id Fecha Reserva</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e7014526-8d3d-4ced-bdba-c27f711fd1f4">
+          <AttributeID>Id Fecha Cancelacion</AttributeID>
+          <Name>Id Fecha Cancelacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8a866057-9bc0-457f-9c26-a64402ed7798">
+          <AttributeID>Id Hora Inicial</AttributeID>
+          <Name>Id Hora Inicial</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="dbad8dde-ba8e-4ca1-9a6a-686dcfc66205">
+          <AttributeID>Id Usuario Solicitante</AttributeID>
+          <Name>Id Usuario Solicitante</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="550d7c1b-8f17-4c6b-8069-d35b8be589cd">
+          <AttributeID>Id Hora Final</AttributeID>
+          <Name>Id Hora Final</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="259e4624-c248-4d46-ba47-7b6237b54093">
+          <AttributeID>Id Dependencia</AttributeID>
+          <Name>Id Dependencia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="111646fe-5144-4847-80de-1b6b6996a28b">
+          <AttributeID>Id Evento</AttributeID>
+          <Name>Id Evento</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="2b7c74bf-5428-40b3-b6bf-d6027141cdc7">
+          <AttributeID>Id Espacio Solicitado</AttributeID>
+          <Name>Id Espacio Solicitado</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b21a0a3d-6225-4bb1-b57d-4f7155330c50">
+          <AttributeID>Id Estado Reserva Espacio</AttributeID>
+          <Name>Id Estado Reserva Espacio</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ad8ae997-0f40-4787-9e91-9a23de3a7957">
+      <ID>Id Reserva Espacio BK</ID>
+      <Name>Id Reserva Espacio BK</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8bb19624-afae-41dd-909e-e78509bc9a0e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d5412e29-9bd2-4565-ab9c-ba47f83bacab">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdReservaEspacio_BK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0378f6d9-da33-427e-83bd-87c6de3dba56">
+      <ID>Fecha Caducidad</ID>
+      <Name>Fecha Caducidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0cef543e-2dee-4f8d-ba71-481db66c34c3">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c78af6a9-edbd-47cd-a454-895eb526d247">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>FechaCaducidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="93cf588b-c116-4dc1-9389-dfc0a0671b56">
+      <ID>Id Fecha Registro</ID>
+      <Name>Id Fecha Registro</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7eb7070c-185c-47ea-9e63-037f5fe1f5b0">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0404d1f1-efd1-4987-8a03-82db53a21d95">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdFechaRegistro</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7d69284-1cc7-4eb1-9a93-95c466a8ad62">
+      <ID>Id Fecha Reserva</ID>
+      <Name>Id Fecha Reserva</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="cdf411e3-88ed-4efa-99aa-75850f5ef331">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f1aae670-4b2b-4be1-a423-728e556fd72d">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdFechaReserva</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71ee07c0-c55f-4be9-aa19-189c2468c534">
+      <ID>Id Fecha Cancelacion</ID>
+      <Name>Id Fecha Cancelacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ae938f9a-35a8-4ff0-a5e6-edf491a861d2">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9c53117a-46fa-4def-8fbf-b52ba0449c27">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdFechaCancelacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3a0699d6-39d7-452d-8ad8-3853cf5c7172">
+      <ID>Id Hora Inicial</ID>
+      <Name>Id Hora Inicial</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="215300a4-63fd-48b0-8fff-f2e7d5886ce1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f208cb27-f4e4-4d62-9822-f22359609929">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdHoraInicial</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c79b75f2-1926-41bc-a734-f372071b4bc9">
+      <ID>Id Usuario Solicitante</ID>
+      <Name>Id Usuario Solicitante</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="074d083b-12b3-42f5-aefa-6a5bea8b9347">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29b564a0-620f-4267-9965-971a00893848">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdUsuarioSolicitante</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b272a7a-4ca4-4ff8-9bf9-f94e775b51f1">
+      <ID>Id Hora Final</ID>
+      <Name>Id Hora Final</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="95675946-ee55-4701-a969-04fa0a15fe2b">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3abfc662-a16b-4ea9-a907-ee11ea1d55ed">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdHoraFinal</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d899c672-d26b-4be6-82e5-b656ba5dbd97">
+      <ID>Id Dependencia</ID>
+      <Name>Id Dependencia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bc141559-2529-4228-99a1-4bef2bb28030">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d886709-cbe0-4501-9c88-fd4899ab1180">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdDependencia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7051e40-1b06-40ed-a4f5-0f248fd221b1">
+      <ID>Id Evento</ID>
+      <Name>Id Evento</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9d955d9f-f6b6-4b49-84b2-c704ff2b6172">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="295e60e5-0ebf-4978-be20-e74d11893df3">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdEvento</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bbd4f897-9ed5-4511-b8d4-b855008ad64e">
+      <ID>Id Espacio Solicitado</ID>
+      <Name>Id Espacio Solicitado</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a92084a5-5f0f-48bb-b82a-d92d9c58bdbd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2a2e2318-ab41-40a9-b648-d08496cceeee">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdEspacioSolicitado</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="325cd03a-2e0a-47a4-9c3d-d16e4e76a2bc">
+      <ID>Id Estado Reserva Espacio</ID>
+      <Name>Id Estado Reserva Espacio</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eec74839-e151-495d-a46d-e4f3b838f54d">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d4375c26-e880-49cb-9897-529a0d5ce1e3">
+            <TableID>dbo_Fact_ReservaEspacios</TableID>
+            <ColumnID>IdEstadoReservaEspacio</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+    </Attribute>
+  </Attributes>
+</Dimension>

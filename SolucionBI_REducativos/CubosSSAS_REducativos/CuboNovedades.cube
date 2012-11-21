@@ -1,0 +1,331 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="947261c0-c360-4b78-b52d-ab87632f801e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>CuboNovedades</ID>
+  <Name>CuboNovedades</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b06dffcc-dc41-4641-9c7e-6c615e9baef1">
+      <ID>Fact NovedadesN</ID>
+      <Name>Fact NovedadesN</Name>
+      <DimensionID>Fact NovedadesN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a926d4e2-337a-4e52-b923-0871cef4ca86">
+          <AttributeID>Id Novedades SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e391e40-c6c0-43af-bf0e-0ac06fe8442f">
+          <AttributeID>Id Novedades BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8972a15d-8413-49c9-96e1-bef3a35ac541">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e34e0a2a-e57d-48a6-b1cb-9dbec4540d9c">
+          <AttributeID>Id Equipo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a0358731-0f8d-46df-bff6-bea19ae0a305">
+          <AttributeID>Id Fecha Novedad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6a65549-61ea-40b8-8d19-ba62b8731970">
+          <AttributeID>Id Tipos Novedad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="aec929cb-ea7d-4adf-8093-46beb328fb0c">
+      <ID>Dim RecursoN</ID>
+      <Name>Dim RecursoN</Name>
+      <DimensionID>Dim RecursoN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7af033a6-5c39-4532-8615-3c2e4f4cd1f4">
+          <AttributeID>Id Equipo SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="423acd4c-d05e-4140-862a-d44d80a31756">
+          <AttributeID>Id Equipo BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e90a1bda-b4e5-4fc4-9f72-e3209252321f">
+          <AttributeID>Serie</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="06156b60-09e1-49ad-b627-fa4e908c0615">
+          <AttributeID>Descripcion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86ab499c-89a3-4138-b5b0-ff430545e60c">
+          <AttributeID>Modelo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02b3bd9e-0a8d-4820-8a5e-c82f73dfba3e">
+          <AttributeID>Marca</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3aafcea0-ca21-4599-9bd2-35ff09738a7e">
+          <AttributeID>Intervalo Mantenimiento</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b83b37f7-c655-408f-8549-ec8bba6572a5">
+          <AttributeID>Id Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="491dd0f7-1e1b-459c-b834-29b78fdcff73">
+          <AttributeID>Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="360348f0-19d6-49af-b2bf-84050a5c7838">
+          <AttributeID>Id Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="211640d8-e8e0-41d4-ae0a-cc1103f66c26">
+          <AttributeID>Nombre Sede</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6ac5ad2a-6444-41bc-9988-e7a45a783055">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a9a667da-4c2a-4f4c-b1dd-282525965855">
+      <ID>Dim FechaN</ID>
+      <Name>Dim FechaN</Name>
+      <DimensionID>Dim FechaN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="247912cd-71f6-4908-9c94-06094885e8cf">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a84ab31-041f-4ef7-a307-9eef4febaa77">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f3895b16-1c74-4896-aed8-cd94555c2019">
+          <AttributeID>Descripcion Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c4a2a063-3ade-4471-96c6-c722ad4b20c5">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0c20e0e7-2b84-414b-b7e9-c49f31920190">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="034b0f5e-3271-4b4d-b739-cfd1c94bcc40">
+          <AttributeID>Numero Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="94510aa9-d039-43ed-9d4d-16cd9eb141e1">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5720098e-b664-4c17-8bb1-f262571fa9c8">
+          <AttributeID>Numero Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4a00317-3bc5-446e-87fd-34292261f180">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f2730372-458d-49dc-84f7-dcb95b0aaf76">
+          <AttributeID>Numero Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71b9a85c-a141-4f5b-a960-54f9c7fd3426">
+          <AttributeID>Semana Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="46c0eed2-c2a9-4a4d-9ecd-ed4fd540d685">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6f5e6b11-ec2c-43b1-9863-7d78eed1cca3">
+          <AttributeID>Dia Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8b47d056-9b18-433f-87a3-684cb442f43a">
+          <AttributeID>Numero Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a5015c0-fcf3-4c41-a6b0-a37212567927">
+          <AttributeID>Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="de0f2713-0eeb-45bc-bc81-201f5a32e7b7">
+          <AttributeID>Semana Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7cbbc6af-9970-4582-ad14-8abed4ab3ed7">
+          <AttributeID>Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3b5ac2fa-1a9b-451d-9e23-ca1087ac4764">
+          <AttributeID>Numero Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d898d5a0-8282-47e7-ae8e-ce377a3c1393">
+          <AttributeID>Numero Mes Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42f4aa5b-a8df-43ab-bd40-936b01acc6ea">
+          <AttributeID>Dia Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5fdb2e23-0275-42b0-887e-e7ecb74db68e">
+          <AttributeID>Indicador Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="31cd3893-cee8-4924-8251-6f0a08b332a8">
+          <AttributeID>Indicador Festivo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="79a41de2-2f9e-45e6-8cbe-a48923d7b952">
+          <AttributeID>Ultimo Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1455d82-91dc-47e7-a72c-aebccf82f94f">
+          <AttributeID>Ultimo Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="df107660-1dd7-487e-af2d-23c31b6e068a">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f36c6fb0-9af6-4596-8b5c-ef287bb37136">
+      <ID>Dim Tipos NovedadN</ID>
+      <Name>Dim Tipos NovedadN</Name>
+      <DimensionID>Dim Tipos NovedadN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b72038fd-06e7-4a39-b122-d7f427a12f6c">
+          <AttributeID>Id Tipo Novedad SK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4049168c-8b0e-4d4f-9ed8-6070c919171c">
+          <AttributeID>Id Tipo Novedad BK</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f0349cc8-38ee-41e9-b5b8-fae5a6358aa5">
+          <AttributeID>Novedad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bc3c843e-f0dc-4d79-9278-dd454e08a08f">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="1da642bd-4332-4c5f-bb17-eba94041ad98">
+      <ID>Fact Novedades</ID>
+      <Name>Fact Novedades</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="97f23419-810c-4151-a855-6ff951e48f10">
+          <ID>Cantidad Novedades</ID>
+          <Name>Cantidad Novedades</Name>
+          <Source dwd:design-time-name="c5ae7e91-28cd-4d41-a874-3280308dceb9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f8912497-d098-4046-bc76-4375587cc0d7">
+              <TableID>dbo_Fact_Novedades</TableID>
+              <ColumnID>CantidadNovedades</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="458ddfc4-b925-4fed-8a9f-e7724363bb7f">
+          <ID>Recuento Fact Novedades</ID>
+          <Name>Recuento Fact Novedades</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="70db1bca-ab39-4453-a684-37184f5949e0">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ef8bc60f-44ce-411b-92ad-f228e5e8c783">
+              <TableID>dbo_Fact_Novedades</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="896c593d-3ee0-4da0-b9b3-59b3bffac93f">
+          <CubeDimensionID>Fact NovedadesN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="4e4b1e7a-f329-4883-9164-94be10a99a3d">
+              <AttributeID>Id Novedades SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9546ca0c-424e-4642-a663-7484faffc953">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9598f44f-5330-40ee-b659-10a5d5ab9885">
+                    <TableID>dbo_Fact_Novedades</TableID>
+                    <ColumnID>IdNovedades_SK</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4c0dcc09-e1d1-41e7-9468-b1344beddf13">
+          <CubeDimensionID>Dim RecursoN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b22ae3f4-83e0-4de1-9e86-99787296efae">
+              <AttributeID>Id Equipo SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dfc1d17a-8cc4-4537-9126-0739fbd87495">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="80f544b2-19ff-4f02-abc9-d2585f1de258">
+                    <TableID>dbo_Fact_Novedades</TableID>
+                    <ColumnID>IdEquipo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="063d11ad-ccbf-422b-a42c-ec05c3794555">
+          <CubeDimensionID>Dim FechaN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2ca0ad93-7ff7-434b-b927-64d1c65d3876">
+              <AttributeID>Id Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f4f1ed61-5bf4-440a-a5fc-9ad0216e5537">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="899733df-2a66-4064-84a6-b94671a7d980">
+                    <TableID>dbo_Fact_Novedades</TableID>
+                    <ColumnID>IdFechaNovedad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2e471140-f513-4317-bc0f-e6a252adb76c">
+          <CubeDimensionID>Dim Tipos NovedadN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="100b4a44-3834-4ee9-bb94-55d8eebd2fb8">
+              <AttributeID>Id Tipo Novedad SK</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3ed4bd51-dc33-4c9f-a805-b42871fc6b04">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9f0e5790-3984-4661-a92e-3889dcb57f5a">
+                    <TableID>dbo_Fact_Novedades</TableID>
+                    <ColumnID>IdTiposNovedad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6debe45e-6390-428b-8609-c5110c5fbdb8">
+    <DataSourceViewID>Vista Novedades</DataSourceViewID>
+  </Source>
+</Cube>
