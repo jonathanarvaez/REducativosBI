@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="40" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="2191" scrolltop="4984" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16060" y="8916" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="47" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2373" scrolltop="15253" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="16060" y="8916" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -138,7 +138,7 @@
               <point x="7183" y="14378" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="6074" top="14928" logicalid="30" controlid="11" masterid="0" hint1="0" hint2="0" width="2386" height="6186" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6074" top="14928" logicalid="30" controlid="11" masterid="0" hint1="0" hint2="0" width="2936" height="6186" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -151,11 +151,11 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="6473" y="20614" />
               <point x="6473" y="17921" />
-              <point x="8160" y="17921" />
-              <point x="8160" y="15228" />
+              <point x="8710" y="17921" />
+              <point x="8710" y="15228" />
             </connector>
           </ddscontrol>
           <ddscontrol controlprogid="MSDDS.Polyline" left="11037" top="9343" logicalid="31" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="2585" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -218,7 +218,7 @@
               <point x="11337" y="13278" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline" left="4828" top="4343" logicalid="34" controlid="15" masterid="0" hint1="0" hint2="0" width="3082" height="6185" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4828" top="4343" logicalid="34" controlid="15" masterid="0" hint1="0" hint2="0" width="4182" height="6185" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -231,11 +231,11 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="1" destattachpoint="0" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="4" sourceattachpoint="1" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="5227" y="4842" />
               <point x="5227" y="7535" />
-              <point x="7610" y="7535" />
-              <point x="7610" y="10228" />
+              <point x="8710" y="7535" />
+              <point x="8710" y="10228" />
             </connector>
           </ddscontrol>
           <ddscontrol controlprogid="MSDDS.Polyline" left="4483" top="10443" logicalid="35" controlid="16" masterid="0" hint1="0" hint2="0" width="3000" height="2585" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
@@ -335,11 +335,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>2191</Value>
+      <Value>-2373</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>4984</Value>
+      <Value>15253</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -770,6 +770,126 @@
           <AttributeID>Categoria</AttributeID>
         </Attribute>
       </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="2035aabc-ab6a-4e27-ac32-f12fb21c1529">
+      <ID>Dim FechaR</ID>
+      <Name>Dim FechaR</Name>
+      <DimensionID>Dim Fecha</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f413814a-5f34-4d52-b895-70ff5a8f1fca">
+          <AttributeID>Id Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="415f99f5-418b-4ef9-8f90-4e352b8945d6">
+          <AttributeID>Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c551a54f-e7d2-4608-b7fd-8d7f0f77c741">
+          <AttributeID>Descripcion Fecha</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0500aae3-7576-4f60-8575-b272cc84d9b5">
+          <AttributeID>Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9ad9a232-3f31-41bf-872a-d030921f1657">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2ef71655-32b8-4f20-944e-7f934bc240e3">
+          <AttributeID>Numero Semestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="519c9fa1-ef49-414b-8a3c-45166eef1ec3">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="aa70edf3-c599-442f-8605-5448411c85a7">
+          <AttributeID>Numero Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="adfadda9-34b7-42a3-94f8-98af99f275d9">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d46d0846-7ea5-4a78-9080-0e1645585b5a">
+          <AttributeID>Numero Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d5e595f2-72f9-44db-9b58-29245c2c8c41">
+          <AttributeID>Semana Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a7f71c8-059d-4df0-9feb-9a72f77428d4">
+          <AttributeID>Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6c1ca853-5850-4c7a-bb4b-155007595e3a">
+          <AttributeID>Dia Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5027f259-b28c-482b-9573-b5c05725eeb0">
+          <AttributeID>Numero Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ec2a6ee-d10b-4ff7-93a9-c472b567a8c4">
+          <AttributeID>Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3148205d-e179-4e04-a0fd-1ca61f8b9388">
+          <AttributeID>Semana Anyo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e8ef625-ffa3-4871-be4f-e331d4e13650">
+          <AttributeID>Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf4da4af-17a7-490d-9f5d-36eeb3f67cdb">
+          <AttributeID>Numero Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9cbb257-0247-4047-8440-fb01ea3a9c43">
+          <AttributeID>Numero Mes Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1b86341e-df72-41cf-a97b-90c9266e3ed5">
+          <AttributeID>Dia Semestre Academico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bf052281-0e92-4e8f-9eb1-d69b28784665">
+          <AttributeID>Indicador Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="76500b6a-1059-4931-a85c-4ae967ec220d">
+          <AttributeID>Indicador Festivo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93e51461-912a-4ae1-84cd-24e95ffbe0fc">
+          <AttributeID>Ultimo Dia Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="939e0b8c-de19-46f0-9bb1-b9ed5400cb7a">
+          <AttributeID>Ultimo Dia Semana</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d97f9e71-2569-492b-a770-482d0eeca4ef">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="f47ffd68-e9ce-4f45-87b4-26e9c330dc8e">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5d919d10-b11d-446c-bc69-497216c7889a">
+      <ID>Dim HoraR</ID>
+      <Name>Dim HoraR</Name>
+      <DimensionID>Dim Hora</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b67890c6-f55b-40bb-a5f9-cf1d4748b8a9">
+          <AttributeID>Id Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a5c0ac42-dc24-4ef6-ad23-910cc5e37443">
+          <AttributeID>Hora</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93acc685-817b-45db-a187-85cb31c4e792">
+          <AttributeID>Parte Del Dia ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="032fe887-d29f-4b6e-a4bd-5333717b469c">
+          <AttributeID>Parte Del Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3e56eea4-d9d5-449b-92d6-07dc7a748b16">
+          <AttributeID>Am Pm ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="683042cd-d1e9-40e3-aea5-166f7a730fa3">
+          <AttributeID>Am Pm</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1895723a-e287-4330-acdb-3aff78c24aa7">
+          <AttributeID>Fecha Caducidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="97513b22-46b3-4860-a119-7409816908f8">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
